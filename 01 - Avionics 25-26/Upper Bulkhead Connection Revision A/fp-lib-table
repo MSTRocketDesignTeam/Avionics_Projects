@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Upper Bulkhead Connections")(type "KiCad")(uri "${KIPRJMOD}/Symbols&Footprints/footprints.pretty")(options "")(descr ""))
+)
