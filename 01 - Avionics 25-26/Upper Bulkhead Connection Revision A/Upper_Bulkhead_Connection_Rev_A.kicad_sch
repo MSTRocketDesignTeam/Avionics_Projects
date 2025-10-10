@@ -3542,7 +3542,7 @@
 		)
 		(uuid "80184d2b-05c8-42f3-872d-7c3c1839bae9")
 	)
-	(text "M12_8 -- TeleMetrumV4 Apogee- (TMA-) -- 2601_3108_15&16"
+	(text "M12_8 -- TeleMetrumV4 Apogee- (TMD-) -- 2601_3108_15&16"
 		(exclude_from_sim no)
 		(at 94.488 75.692 0)
 		(effects
@@ -3572,7 +3572,7 @@
 		)
 		(uuid "dc9302d8-132a-4e9d-bd89-1533f8322c33")
 	)
-	(text "M12_7 -- TeleMetrumV4 Apogee+ (TMA+) -- 2601_3108_13&14"
+	(text "M12_7 -- TeleMetrumV4 Apogee+ (TMD+) -- 2601_3108_13&14"
 		(exclude_from_sim no)
 		(at 94.488 73.406 0)
 		(effects

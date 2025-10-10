@@ -1227,7 +1227,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "TMA-"
+	(gr_text "TMD-"
 		(at 98.5 108.5 0)
 		(layer "F.SilkS")
 		(uuid "741cbac7-6a2f-403b-b132-e643ff30f082")
@@ -1318,7 +1318,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "TMA+"
+	(gr_text "TMD+"
 		(at 105 101 0)
 		(layer "F.SilkS")
 		(uuid "e161893c-1b21-47c6-a296-823eb6a4861d")
@@ -1435,8 +1435,8 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "TMA-"
-		(at 102.5 108.5 -0)
+	(gr_text "TMD-"
+		(at 102.5 108.5 0)
 		(layer "B.SilkS")
 		(uuid "dfdb60e2-684e-423f-ba60-14e1caf4b6e3")
 		(effects
@@ -1448,8 +1448,8 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "TMA+"
-		(at 109 101 -0)
+	(gr_text "TMD+"
+		(at 109 101 0)
 		(layer "B.SilkS")
 		(uuid "fcf9382c-6076-4bc1-85c6-8868154cadf5")
 		(effects
