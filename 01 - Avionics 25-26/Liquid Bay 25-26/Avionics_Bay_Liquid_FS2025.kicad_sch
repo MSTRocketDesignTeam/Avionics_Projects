@@ -1,0 +1,4521 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "f8d5e588-4357-488b-83a5-c5507066dba0")
+	(paper "A4")
+	(title_block
+		(title "Liquid Project Avionics Bay Wiring")
+		(date "2025-10-10")
+		(rev "IR")
+		(company "Missouri S&T Rocket Design Team")
+		(comment 1 "Author(s): Isaac Lough")
+	)
+	(lib_symbols
+		(symbol "Connector:Conn_01x02_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J1"
+				(at -0.6351 1.27 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "RunCam Split 4 V2"
+				(at 1.9049 1.27 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_Pin_1_1"
+				(rectangle
+					(start -7.62 6.35)
+					(end 3.81 -8.89)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type color)
+						(color 255 255 194 1)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "MST_RDT_Altimeters:BlueRavenV4"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "BlueRaven"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BlueRavenV4_0_1"
+				(rectangle
+					(start -10.033 22.479)
+					(end 10.033 -22.479)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BlueRavenV4_1_1"
+				(pin input line
+					(at -6.35 -21.59 270)
+					(length 2.54)
+					(name "4th"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -3.81 -21.59 270)
+					(length 2.54)
+					(name "3rd"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -1.27 -21.59 270)
+					(length 2.54)
+					(name "Main"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 1.27 -21.59 270)
+					(length 2.54)
+					(name "Apo"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 -21.59 270)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 6.35 -21.59 270)
+					(length 2.54)
+					(name "+In"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "MST_RDT_Altimeters:Featherweight_GPS"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "FeatherweightGPS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Featherweight_GPS_0_1"
+				(rectangle
+					(start -10.16 21.082)
+					(end 10.16 -21.082)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Featherweight_GPS_1_1"
+				(pin power_in line
+					(at -3.81 -12.7 180)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -3.81 -15.24 180)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "MST_RDT_Altimeters:SRAD_FC"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SRAD_FC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SRAD_FC_0_1"
+				(rectangle
+					(start -18.975 44)
+					(end 18.975 -44)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SRAD_FC_1_1"
+				(pin input line
+					(at -11.43 -17.78 180)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -11.43 -20.32 180)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -11.43 -34.29 180)
+					(length 2.54)
+					(name "VBAT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -11.43 -36.83 180)
+					(length 2.54)
+					(name "VBAT_SWITCHED"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -3.81 -40.64 270)
+					(length 2.54)
+					(name "PYRO_SUPPLY_MONITORED"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -1.27 -40.64 270)
+					(length 2.54)
+					(name "CH1-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 1.27 -40.64 270)
+					(length 2.54)
+					(name "PYRO_SUPPLY_MONITORED"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 -40.64 270)
+					(length 2.54)
+					(name "CH2-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "MST_RDT_Altimeters:TeleMetrum_V4"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TeleMetrumV4"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TeleMetrum_V4_0_1"
+				(rectangle
+					(start -12.7 34.925)
+					(end 12.7 -34.925)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TeleMetrum_V4_1_1"
+				(pin input line
+					(at -6.35 -33.02 270)
+					(length 2.54)
+					(name "Switch_Output"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -3.81 -33.02 270)
+					(length 2.54)
+					(name "Switch_Input"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -1.27 -19.05 90)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -1.27 -33.02 270)
+					(length 2.54)
+					(name "Main+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 1.27 -19.05 90)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 1.27 -33.02 270)
+					(length 2.54)
+					(name "Main-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 -33.02 270)
+					(length 2.54)
+					(name "Apogee+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 6.35 -33.02 270)
+					(length 2.54)
+					(name "Apogee-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Switch:SW_Push_DPDT"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW1"
+				(at 1.2701 -10.16 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "EggTimer WiFi Switch"
+				(at -1.2699 -10.16 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Momentary Switch, dual pole double throw"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch dual-pole double-throw spdt ON-ON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_DPDT_0_0"
+				(circle
+					(center -2.032 5.08)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.032 -5.08)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -7.62)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_Push_DPDT_0_1"
+				(polyline
+					(pts
+						(xy -1.524 5.334) (xy 2.3368 7.0612)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -4.826) (xy 2.3368 -3.0988)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 7.874) (xy 0 6.096)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.556) (xy 0 4.572)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.016) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 7.62)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_Push_DPDT_1_1"
+				(rectangle
+					(start -3.175 8.89)
+					(end 3.175 -8.89)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -1.27 -10.16 90)
+					(length 2.54)
+					(name "PWR+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "PWR+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 1.27 -10.16 90)
+					(length 2.54)
+					(name "PWR-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "PWR-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 7.62 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -7.62 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Switch:SW_SPDT"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_SPDT"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Switch, single pole double throw"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_SPDT_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.254) (xy 1.651 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SPDT_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+BATT"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+BATT"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+BATT\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power battery"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+BATT_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+BATT_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:-BATT"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "-BATT"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"-BATT\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power battery"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "-BATT_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.27) (xy -0.762 1.27) (xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "-BATT_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 39.37 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "32f1adfa-dbf6-4b3f-b79b-267a6881d852")
+	)
+	(junction
+		(at 147.32 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a39678c0-712a-4b6e-92b1-937a00ad6ac6")
+	)
+	(junction
+		(at 52.07 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef79c271-25e7-43bf-ae60-bd966701f334")
+	)
+	(junction
+		(at 161.29 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f6d92238-dfef-4525-b30c-3d720d73f531")
+	)
+	(wire
+		(pts
+			(xy 143.51 69.85) (xy 129.54 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02681cde-08d4-4ead-86d6-98aab61d6745")
+	)
+	(wire
+		(pts
+			(xy 55.88 53.34) (xy 53.34 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a1cb9b6-62d0-4d29-97d0-1c66ccb7448b")
+	)
+	(wire
+		(pts
+			(xy 148.59 111.76) (xy 133.35 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b297092-9811-4aad-8818-e6637250fe5f")
+	)
+	(wire
+		(pts
+			(xy 146.05 78.74) (xy 146.05 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c76406e-8726-4eee-9d1c-5a28e885fe92")
+	)
+	(wire
+		(pts
+			(xy 182.88 127) (xy 176.53 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13f3a868-8722-4ae1-83d7-4455cd9bb3b6")
+	)
+	(wire
+		(pts
+			(xy 234.95 134.62) (xy 237.49 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "163495a7-d191-4b51-ad7a-4d819b550c2f")
+	)
+	(wire
+		(pts
+			(xy 115.57 50.8) (xy 129.54 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17c3d99c-bf1e-49f7-bd33-4bc2f87cf01c")
+	)
+	(wire
+		(pts
+			(xy 140.97 78.74) (xy 140.97 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "195f6e72-7903-4de6-91bd-7fa31ff28e41")
+	)
+	(wire
+		(pts
+			(xy 152.4 163.83) (xy 153.67 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2087e100-1aae-4874-bfa8-e325271cfb79")
+	)
+	(wire
+		(pts
+			(xy 38.1 62.23) (xy 39.37 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2307144e-4378-443d-a231-1258d35826cd")
+	)
+	(wire
+		(pts
+			(xy 148.59 69.85) (xy 129.54 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23795f60-af68-44aa-9234-42663937c58f")
+	)
+	(wire
+		(pts
+			(xy 41.91 184.15) (xy 41.91 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2743412e-d042-40ac-996d-8f3d04ad94a1")
+	)
+	(wire
+		(pts
+			(xy 115.57 53.34) (xy 129.54 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b9efacf-9054-4486-8bf7-c4cbae583402")
+	)
+	(wire
+		(pts
+			(xy 63.5 184.15) (xy 63.5 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cc11cc6-8d1d-45aa-a0a9-e12319b6a9b0")
+	)
+	(wire
+		(pts
+			(xy 118.11 180.34) (xy 124.46 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d8ecf48-5785-442a-adf5-734e33aab7ed")
+	)
+	(wire
+		(pts
+			(xy 236.22 161.29) (xy 236.22 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fa61f2b-5a76-4186-88f2-f3ffa7bbc507")
+	)
+	(wire
+		(pts
+			(xy 201.93 77.47) (xy 200.66 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32501ecd-8877-435f-99c2-9b983e4a44bd")
+	)
+	(wire
+		(pts
+			(xy 152.4 113.03) (xy 153.67 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "355376b4-37a8-46f2-85b1-1c51b40d14f8")
+	)
+	(wire
+		(pts
+			(xy 63.5 154.94) (xy 64.77 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "373d2114-f74d-4a4d-8752-42349730e29d")
+	)
+	(wire
+		(pts
+			(xy 46.99 48.26) (xy 52.07 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38e60084-450c-4138-b70a-5184f68e0673")
+	)
+	(wire
+		(pts
+			(xy 203.2 152.4) (xy 204.47 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bc398e8-609e-4fae-87f6-0a74b5cedec3")
+	)
+	(wire
+		(pts
+			(xy 25.4 163.83) (xy 25.4 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fb05b33-6283-4561-bfe8-bf4afb4a1d0b")
+	)
+	(wire
+		(pts
+			(xy 143.51 78.74) (xy 143.51 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fb8cda6-d16e-47b7-841a-081e34a10675")
+	)
+	(wire
+		(pts
+			(xy 52.07 50.8) (xy 53.34 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "419ea04d-1661-4db5-a0d9-978ce8eb66a5")
+	)
+	(wire
+		(pts
+			(xy 234.95 139.7) (xy 234.95 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "433ef651-a775-4231-bca7-f94332f24744")
+	)
+	(wire
+		(pts
+			(xy 77.47 184.15) (xy 77.47 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45426ba7-7aa0-438f-8c05-8d717d6da1c8")
+	)
+	(wire
+		(pts
+			(xy 93.98 76.2) (xy 93.98 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cba69da-1c19-4122-9f9c-f3550fdb7875")
+	)
+	(wire
+		(pts
+			(xy 182.88 171.45) (xy 161.29 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dcae9e1-b71a-4168-b38b-cb56f0d93ffb")
+	)
+	(wire
+		(pts
+			(xy 31.75 63.5) (xy 46.99 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e4e46ac-e127-48ab-a239-ccd0420eb67e")
+	)
+	(wire
+		(pts
+			(xy 140.97 72.39) (xy 139.7 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f3a3d66-309b-406c-831e-97ca568ddbda")
+	)
+	(wire
+		(pts
+			(xy 245.11 156.21) (xy 250.19 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "542e3bc7-4f6c-4f7e-8d7c-b46cc2f38a45")
+	)
+	(wire
+		(pts
+			(xy 158.75 107.95) (xy 171.45 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "545ff486-8b4d-485b-a55b-0729cf2f5909")
+	)
+	(wire
+		(pts
+			(xy 182.88 171.45) (xy 205.74 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5495d53e-125e-45ba-bf5d-ab3cc20b81a1")
+	)
+	(wire
+		(pts
+			(xy 245.11 137.16) (xy 245.11 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "568108be-741a-467d-828a-fd3c1d2e66fa")
+	)
+	(wire
+		(pts
+			(xy 93.98 172.72) (xy 105.41 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59a14d9d-e1b3-4116-9212-d8a36ef9176f")
+	)
+	(wire
+		(pts
+			(xy 240.03 132.08) (xy 245.11 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a1da8b8-678a-439a-a2c0-32e99d05ffdf")
+	)
+	(wire
+		(pts
+			(xy 205.74 80.01) (xy 203.2 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dae54dc-28e8-4949-b875-4f9c9f557a64")
+	)
+	(wire
+		(pts
+			(xy 88.9 173.99) (xy 88.9 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "617d6268-db29-4769-af64-7e419534a1ab")
+	)
+	(wire
+		(pts
+			(xy 173.99 97.79) (xy 163.83 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6298aa6d-4935-45cb-a1b9-ab59f75d1480")
+	)
+	(wire
+		(pts
+			(xy 147.32 173.99) (xy 154.94 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "634bdff7-4563-45dd-bf8d-5227a561dc1f")
+	)
+	(wire
+		(pts
+			(xy 34.29 63.5) (xy 44.45 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68dba144-dd77-400e-b59d-cae01287caf8")
+	)
+	(wire
+		(pts
+			(xy 158.75 113.03) (xy 158.75 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c0b9c47-856f-45cc-b953-c91463127e07")
+	)
+	(wire
+		(pts
+			(xy 36.83 63.5) (xy 38.1 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cf93a71-be8b-4a0f-9620-663e8a3b047f")
+	)
+	(wire
+		(pts
+			(xy 163.83 107.95) (xy 163.83 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d690ca6-29c7-47d7-83e2-ddba21150801")
+	)
+	(wire
+		(pts
+			(xy 137.16 191.77) (xy 140.97 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e0e9dc0-4002-4c3d-be90-54487e8c436d")
+	)
+	(wire
+		(pts
+			(xy 132.08 182.88) (xy 132.08 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fc50e53-31eb-435d-a894-064835b677ec")
+	)
+	(wire
+		(pts
+			(xy 44.45 53.34) (xy 52.07 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "703cf8c6-32b6-4e18-a63d-341b0209797a")
+	)
+	(wire
+		(pts
+			(xy 146.05 78.74) (xy 151.13 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71cee084-daa9-4006-a237-7bb5b834f14b")
+	)
+	(wire
+		(pts
+			(xy 52.07 55.88) (xy 45.72 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "746f0cb0-8052-4a75-ad20-4bb53751eaa3")
+	)
+	(wire
+		(pts
+			(xy 203.2 97.79) (xy 173.99 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74ab1479-32ad-4960-9e72-dff9df6407e1")
+	)
+	(wire
+		(pts
+			(xy 39.37 62.23) (xy 41.91 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d16ebec-e632-404f-9e09-4ee5be4d5d33")
+	)
+	(wire
+		(pts
+			(xy 25.4 86.36) (xy 39.37 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80fa280a-a940-41e2-bbb8-ed4cd012b8d5")
+	)
+	(wire
+		(pts
+			(xy 204.47 80.01) (xy 203.2 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87872e5b-3dad-47f5-8d90-5a342e51fade")
+	)
+	(wire
+		(pts
+			(xy 39.37 63.5) (xy 39.37 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88524524-ccb8-4f53-a467-adbda0627df7")
+	)
+	(wire
+		(pts
+			(xy 200.66 80.01) (xy 201.93 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "895bbcf7-0108-450f-b3e4-f99610229ab2")
+	)
+	(wire
+		(pts
+			(xy 146.05 69.85) (xy 146.05 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "898481f8-492e-4196-982d-fa4ebe0c3979")
+	)
+	(wire
+		(pts
+			(xy 45.72 55.88) (xy 39.37 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b378089-56f9-48ad-b7fc-fca3937047e6")
+	)
+	(wire
+		(pts
+			(xy 171.45 95.25) (xy 203.2 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d39dad1-c3cb-4e04-9482-f101839053a1")
+	)
+	(wire
+		(pts
+			(xy 161.29 182.88) (xy 161.29 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e3c362e-6531-46ba-b88f-1cc09e9a493d")
+	)
+	(wire
+		(pts
+			(xy 95.25 71.12) (xy 139.7 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9061cd88-2738-4910-85a2-40fd47dff9f2")
+	)
+	(wire
+		(pts
+			(xy 135.89 87.63) (xy 135.89 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9455696b-990c-4267-a18e-747a4c79b82f")
+	)
+	(wire
+		(pts
+			(xy 151.13 69.85) (xy 129.54 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9719c493-503c-4415-aee8-4e9c3baee40a")
+	)
+	(wire
+		(pts
+			(xy 124.46 173.99) (xy 147.32 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9be95767-0059-4b11-8f0f-0d7cafdb55a1")
+	)
+	(wire
+		(pts
+			(xy 148.59 69.85) (xy 148.59 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dcbc3f5-c7e6-4e9b-8794-bf31448659d8")
+	)
+	(wire
+		(pts
+			(xy 86.36 80.01) (xy 86.36 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0ada96d-6a8b-4339-a291-a6fc242a02e8")
+	)
+	(wire
+		(pts
+			(xy 115.57 48.26) (xy 129.54 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a29c2f17-30bc-4766-86c7-03799ba24d2d")
+	)
+	(wire
+		(pts
+			(xy 52.07 55.88) (xy 53.34 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae802122-d4a0-4b10-a09c-fdd63f7dd7eb")
+	)
+	(wire
+		(pts
+			(xy 204.47 151.13) (xy 204.47 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af035100-93da-4765-987b-9b03bec42877")
+	)
+	(wire
+		(pts
+			(xy 170.18 123.19) (xy 170.18 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b752f058-4f0d-4086-9b73-a48a6a30f183")
+	)
+	(wire
+		(pts
+			(xy 132.08 186.69) (xy 137.16 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8cb9a30-7992-4bb4-b8a9-8baf24583e7c")
+	)
+	(wire
+		(pts
+			(xy 147.32 173.99) (xy 147.32 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb39b201-5879-4913-a8e0-f7dd95257648")
+	)
+	(wire
+		(pts
+			(xy 148.59 113.03) (xy 148.59 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c042565b-7bf1-456d-a240-eeae496158a3")
+	)
+	(wire
+		(pts
+			(xy 135.89 96.52) (xy 152.4 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1ababba-01af-47a6-be39-f7915c648db8")
+	)
+	(wire
+		(pts
+			(xy 203.2 77.47) (xy 201.93 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c688cd90-6161-4f43-aca8-4d62b6b69a25")
+	)
+	(wire
+		(pts
+			(xy 133.35 87.63) (xy 133.35 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbab660a-0c6c-40d9-bada-ccf87fa6f0a7")
+	)
+	(wire
+		(pts
+			(xy 170.18 123.19) (xy 166.37 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d09a6eb7-3787-4c49-b407-df5eafb7f9ef")
+	)
+	(wire
+		(pts
+			(xy 200.66 78.74) (xy 200.66 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d120fef0-da6f-4c41-85dd-bfd875edc206")
+	)
+	(wire
+		(pts
+			(xy 143.51 78.74) (xy 148.59 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1aa42bf-d1ce-4fd0-9f22-8a52719c1391")
+	)
+	(wire
+		(pts
+			(xy 27.94 184.15) (xy 27.94 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2e4095f-b0ce-4a17-ba2b-8e6c48125282")
+	)
+	(wire
+		(pts
+			(xy 146.05 73.66) (xy 140.97 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d57602b3-555e-4a75-8aeb-08d60497d68a")
+	)
+	(wire
+		(pts
+			(xy 138.43 87.63) (xy 138.43 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5ffbf29-93f3-4f40-970a-0bb791c1379b")
+	)
+	(wire
+		(pts
+			(xy 140.97 191.77) (xy 161.29 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6177c4a-7914-49cb-a045-e2b8e8960c7e")
+	)
+	(wire
+		(pts
+			(xy 140.97 73.66) (xy 140.97 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d742844f-774c-410d-b62b-0b5c85532bd2")
+	)
+	(wire
+		(pts
+			(xy 77.47 163.83) (xy 64.77 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7e13c77-369b-491b-bbcb-d12dc099de85")
+	)
+	(wire
+		(pts
+			(xy 151.13 69.85) (xy 151.13 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d808846d-1c40-4a3c-b3e6-e5dcf825f244")
+	)
+	(wire
+		(pts
+			(xy 165.1 152.4) (xy 203.2 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc48e874-9c9b-4e7b-8f19-bb500b3b998d")
+	)
+	(wire
+		(pts
+			(xy 153.67 163.83) (xy 165.1 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "deaf4ad3-312c-4f92-a396-53d2da71e0bf")
+	)
+	(wire
+		(pts
+			(xy 118.11 182.88) (xy 118.11 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfe06580-8e8e-4114-8b7c-569294c2a8b5")
+	)
+	(wire
+		(pts
+			(xy 143.51 73.66) (xy 143.51 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2ff1518-262f-418f-b775-3c59565854a2")
+	)
+	(wire
+		(pts
+			(xy 95.25 71.12) (xy 86.36 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6ce5064-c706-4ee5-b184-206c6b22088b")
+	)
+	(wire
+		(pts
+			(xy 201.93 81.28) (xy 203.2 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6e5fe90-18cb-4ae9-a0e8-6848f52f49af")
+	)
+	(wire
+		(pts
+			(xy 205.74 152.4) (xy 205.74 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaa307d0-3777-49c8-a3c8-dbef860daa18")
+	)
+	(wire
+		(pts
+			(xy 88.9 181.61) (xy 91.44 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb9590b5-72d5-4828-96dc-a3add28c6ca4")
+	)
+	(wire
+		(pts
+			(xy 53.34 50.8) (xy 55.88 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f03541e8-18a3-4cbe-94b8-7d3c4fb39914")
+	)
+	(wire
+		(pts
+			(xy 96.52 73.66) (xy 93.98 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0b9071f-6b83-4418-9939-514f5fa1f965")
+	)
+	(wire
+		(pts
+			(xy 236.22 151.13) (xy 237.49 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f34bbfd0-db55-445a-bb1d-b06acf269299")
+	)
+	(wire
+		(pts
+			(xy 138.43 78.74) (xy 143.51 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f38fcc69-b24a-4143-b05e-dd2d31dc72c9")
+	)
+	(wire
+		(pts
+			(xy 129.54 53.34) (xy 146.05 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4a9390a-309d-45c1-b07f-a404692c3fb9")
+	)
+	(wire
+		(pts
+			(xy 115.57 55.88) (xy 129.54 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5efdaf2-22ab-4033-a625-ce4b63b5e8b0")
+	)
+	(wire
+		(pts
+			(xy 176.53 127) (xy 166.37 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe537325-e721-421e-9a06-3f044bf5dd9a")
+	)
+	(wire
+		(pts
+			(xy 96.52 73.66) (xy 138.43 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffb1abf5-7e4b-4dd2-ad63-66cc19cb7d39")
+	)
+	(symbol
+		(lib_id "power:-BATT")
+		(at 250.19 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "036fcc92-4f98-4834-b15f-14f95ed38ef3")
+		(property "Reference" "#PWR014"
+			(at 250.19 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-BATT(18650)"
+			(at 250.19 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 250.19 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-BATT\""
+			(at 250.19 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8c73db04-c62e-4b27-bfef-8b016a0ccc40")
+		)
+		(instances
+			(project "Avionics_Bay_Liquid_FS2025"
+				(path "/f8d5e588-4357-488b-83a5-c5507066dba0"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_DPDT")
+		(at 156.21 118.11 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "072f572d-dfc9-4a3e-b299-1120b7bc21a8")
+		(property "Reference" "SW1"
+			(at 171.196 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "EggTimer WiFi Switch"
+			(at 170.942 118.872 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Momentary Switch, dual pole double throw"
+			(at 156.21 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "fcfff494-f875-4a17-9172-fdcd57400ba1")
+		)
+		(pin "1"
+			(uuid "6c5fbec8-b794-4e16-beab-cd58f4ad925a")
+		)
+		(pin "3"
+			(uuid "5c7249f9-23ef-4381-b119-668fbddef802")
+		)
+		(pin "4"
+			(uuid "870c9976-7364-4203-9e01-d581a7c0fa6a")
+		)
+		(pin "6"
+			(uuid "16f0c89d-03f5-4664-98ab-d8d8b4c7998b")
+		)
+		(pin "2"
+			(uuid "a831f5d4-f92a-4b65-9d86-75f4e416181c")
+		)
+		(pin "PWR+"
+			(uuid "49bec86f-0254-497e-9fa3-d358e47d695c")
+		)
+		(pin "PWR-"
+			(uuid "65b90bde-9f0a-445d-96ba-8028102bb706")
+		)
+		(instances
+			(project ""
+				(path "/f8d5e588-4357-488b-83a5-c5507066dba0"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 240.03 127 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "112ee173-4277-4d2e-855e-914ad9b6399a")
+		(property "Reference" "J1"
+			(at 241.3 126.3649 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RunCam Split 4 V2"
+			(at 241.3 128.9049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.03 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 240.03 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 240.03 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8625f3d0-30d8-4e91-aeb5-395e96068f6f")
+		)
+		(pin "1"
+			(uuid "c9d86319-f882-4169-bf49-4f9db2ac75cd")
+		)
+		(instances
+			(project ""
+				(path "/f8d5e588-4357-488b-83a5-c5507066dba0"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPDT")
+		(at 27.94 168.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ba0c409-cb47-4ccf-998b-7dacb8f7df20")
+		(property "Reference" "SW1(PullPin)"
+			(at 33.02 167.6399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_SPDT"
+			(at 33.02 170.1799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 27.94 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f528f5b6-55ab-429b-ab16-4c6dc9b003c5")
+		)
+		(pin "1"
+			(uuid "f765175c-54df-46ab-808e-51b01e23f838")
+		)
+		(pin "3"
+			(uuid "377a74f7-5c09-402f-b2ec-634726cd2a74")
+		)
+		(instances
+			(project ""
+				(path "/f8d5e588-4357-488b-83a5-c5507066dba0"
+					(reference "SW1(PullPin)")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-BATT")
+		(at 132.08 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38f5d177-fa9b-4b64-9c61-c951d792a82c")
+		(property "Reference" "#PWR08"
+			(at 132.08 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-BATT(18650)"
+			(at 132.08 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-BATT\""
+			(at 132.08 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "86a37749-30e8-496c-a3f1-ff1098f34171")
+		)
+		(instances
+			(project "Avionics_Bay_Liquid_FS2025"
+				(path "/f8d5e588-4357-488b-83a5-c5507066dba0"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 91.44 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3c6513b3-e69d-4f20-8f95-3f84f04172a7")
+		(property "Reference" "#PWR09"
+			(at 91.44 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT(18650)"
+			(at 91.44 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 91.44 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dc039757-09a2-4389-9278-c15ea226b109")
+		)
+		(instances
+			(project "Avionics_Bay_Liquid_FS2025"
+				(path "/f8d5e588-4357-488b-83a5-c5507066dba0"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-BATT")
+		(at 161.29 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f0267b9-1ad7-408f-ad17-38002ed66f89")
+		(property "Reference" "#PWR06"
+			(at 161.29 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-BATT(18650)"
+			(at 161.29 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-BATT\""
+			(at 161.29 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cdc45ca5-ea9a-4d46-a98b-5e3399f4fb60")
+		)
+		(instances
+			(project "Avionics_Bay_Liquid_FS2025"
+				(path "/f8d5e588-4357-488b-83a5-c5507066dba0"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 147.32 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4fd76657-104c-44ed-88d8-8eac183e4991")
+		(property "Reference" "#PWR05"
+			(at 147.32 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT(18650)"
+			(at 147.32 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 147.32 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aa73417f-5510-4499-9772-f01f4eb4764f")
+		)
+		(instances
+			(project "Avionics_Bay_Liquid_FS2025"
+				(path "/f8d5e588-4357-488b-83a5-c5507066dba0"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-BATT")
+		(at 182.88 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "571c95b5-4013-4e59-8a59-4aa0ea27636f")
+		(property "Reference" "#PWR012"
+			(at 182.88 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-BATT(18650)"
+			(at 182.626 128.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-BATT\""
+			(at 182.88 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f1f6bb5-4516-4485-8b4a-f7d4a8386718")
+		)
+		(instances
+			(project "Avionics_Bay_Liquid_FS2025"
+				(path "/f8d5e588-4357-488b-83a5-c5507066dba0"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MST_RDT_Altimeters:TeleMetrum_V4")
+		(at 139.7 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5aba0ee7-387f-4df0-9280-5ead1955c8e8")
+		(property "Reference" "TeleMetrumV4"
+			(at 132.842 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 153.67 56.1974 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "2e43709a-3500-45cb-857d-6af68253af09")
+		)
+		(pin ""
+			(uuid "739dbe42-f678-4d73-ad9b-844c6ffa86c4")
+		)
+		(pin ""
+			(uuid "28f527a0-3cea-442c-b621-85e003e17214")
+		)
+		(pin ""
+			(uuid "4b4dbd4a-aab8-4d81-9820-faa1c83a1d36")
+		)
+		(pin ""
+			(uuid "6831cc9d-6b91-4bee-a26f-6226c6e72aba")
+		)
+		(pin ""
+			(uuid "a7822372-10c2-415b-aeab-eb8c5eaa1bcf")
+		)
+		(pin ""
+			(uuid "8d62c611-18df-4c97-b50b-ee76c80820a0")
+		)
+		(pin ""
+			(uuid "12b81563-f56b-4921-add4-40d36080509e")
+		)
+		(instances
+			(project ""
+				(path "/f8d5e588-4357-488b-83a5-c5507066dba0"
+					(reference "TeleMetrumV4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-BATT")
+		(at 105.41 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e8e5a31-9582-4ca2-8ec5-d1a3c477b0e5")
+		(property "Reference" "#PWR010"
+			(at 105.41 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-BATT(18650)"
+			(at 107.95 182.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-BATT\""
+			(at 105.41 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4613f4eb-05db-4d22-8b07-85c1078f553f")
+		)
+		(instances
+			(project "Avionics_Bay_Liquid_FS2025"
+				(path "/f8d5e588-4357-488b-83a5-c5507066dba0"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPDT")
+		(at 154.94 168.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d7dfd3e-f521-4dac-9043-6c6a9c3a602c")
+		(property "Reference" "SW4(PullPin)"
+			(at 160.02 167.6399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_SPDT"
+			(at 160.02 170.1799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 154.94 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9012d495-b106-428b-a93c-0a552135df49")
+		)
+		(pin "1"
+			(uuid "8fde7c58-308e-43e4-9e53-11db07442437")
+		)
+		(pin "3"
+			(uuid "2dcd447e-f606-42d3-8f5f-a86ce638cae5")
+		)
+		(instances
+			(project "Avionics_Bay_Liquid_FS2025"
+				(path "/f8d5e588-4357-488b-83a5-c5507066dba0"
+					(reference "SW4(PullPin)")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 236.22 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "846fbd40-c182-4b85-af5f-44f9ebdb8d58")
+		(property "Reference" "#PWR013"
+			(at 236.22 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT(18650)"
+			(at 236.22 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 236.22 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 236.22 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "44f68f9b-2f36-4e82-804a-6526baf08637")
+		)
+		(instances
+			(project "Avionics_Bay_Liquid_FS2025"
+				(path "/f8d5e588-4357-488b-83a5-c5507066dba0"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-BATT")
+		(at 77.47 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88dfbcf2-84ce-446e-85aa-331df70f4107")
+		(property "Reference" "#PWR04"
+			(at 77.47 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-BATT(18650)"
+			(at 77.47 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-BATT\""
+			(at 77.47 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8df638c6-dc49-42a2-a5f2-d36de62148b1")
+		)
+		(instances
+			(project "Avionics_Bay_Liquid_FS2025"
+				(path "/f8d5e588-4357-488b-83a5-c5507066dba0"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 27.94 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9fff2c95-f07d-4775-b3b6-68c97f153cd5")
+		(property "Reference" "#PWR01"
+			(at 27.94 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT(18650)"
+			(at 27.94 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 27.94 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "52bb2d8c-0e8a-48d3-87f2-44fcfd84e1f9")
+		)
+		(instances
+			(project ""
+				(path "/f8d5e588-4357-488b-83a5-c5507066dba0"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 118.11 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aa5251c4-00ee-44e7-87ca-5d85272ae68d")
+		(property "Reference" "#PWR07"
+			(at 118.11 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT(18650)"
+			(at 118.11 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 118.11 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cfac9814-7dca-4ed4-9f7c-950f5cb23b1b")
+		)
+		(instances
+			(project "Avionics_Bay_Liquid_FS2025"
+				(path "/f8d5e588-4357-488b-83a5-c5507066dba0"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPDT")
+		(at 237.49 144.78 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab90a0c9-af7d-4815-9dbf-00e42ba7b316")
+		(property "Reference" "SW2(PullPin)"
+			(at 242.57 143.5099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_SPDT"
+			(at 242.57 146.0499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 245.11 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 237.49 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "084b6108-0dd2-4e06-9dd1-687c2cb74c64")
+		)
+		(pin "1"
+			(uuid "abf7fa61-65db-463e-b86f-c9986c1cd10d")
+		)
+		(pin "3"
+			(uuid "b5da4ab9-af19-46d4-bc26-4d10e50c35bd")
+		)
+		(instances
+			(project "Avionics_Bay_Liquid_FS2025"
+				(path "/f8d5e588-4357-488b-83a5-c5507066dba0"
+					(reference "SW2(PullPin)")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 63.5 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b56a5a5b-88e8-4cda-91f9-86ee52d4b9fe")
+		(property "Reference" "#PWR03"
+			(at 63.5 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT(18650)"
+			(at 63.5 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 63.5 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4cda296e-c4c4-4406-b7f4-08f6dd2b5746")
+		)
+		(instances
+			(project "Avionics_Bay_Liquid_FS2025"
+				(path "/f8d5e588-4357-488b-83a5-c5507066dba0"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 170.18 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b7a9a294-f9e5-4305-a12a-e8e16cd20ad0")
+		(property "Reference" "#PWR011"
+			(at 170.18 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT(18650)"
+			(at 168.148 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 170.18 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "838df1dc-d3e6-44a3-921e-afa10a05ae29")
+		)
+		(instances
+			(project "Avionics_Bay_Liquid_FS2025"
+				(path "/f8d5e588-4357-488b-83a5-c5507066dba0"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MST_RDT_Altimeters:Featherweight_GPS")
+		(at 68.58 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d520dd60-a643-472e-a050-1284da262f6c")
+		(property "Reference" "Featherweight_GPS"
+			(at 69.342 138.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 68.58 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "a72119b7-f266-43cf-8b2e-696947c33631")
+		)
+		(pin ""
+			(uuid "29c67c43-2d79-407b-b8f2-35a56e42f4b2")
+		)
+		(instances
+			(project ""
+				(path "/f8d5e588-4357-488b-83a5-c5507066dba0"
+					(reference "Featherweight_GPS")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-BATT")
+		(at 41.91 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc70b8ac-f27a-42b9-a7f8-4f4b1fe4eaf2")
+		(property "Reference" "#PWR02"
+			(at 41.91 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-BATT(18650)"
+			(at 41.91 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-BATT\""
+			(at 41.91 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "09437877-c4f4-4df7-afd2-8f886d49d446")
+		)
+		(instances
+			(project ""
+				(path "/f8d5e588-4357-488b-83a5-c5507066dba0"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MST_RDT_Altimeters:BlueRavenV4")
+		(at 33.02 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f137bbe7-9b30-4dbf-97d2-5802cf22016d")
+		(property "Reference" "Blue_Raven"
+			(at 33.02 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 44.45 42.7354 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 33.02 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "95a783e2-2368-4697-bf19-3bbf6b3bace9")
+		)
+		(pin ""
+			(uuid "cf92f1fd-452e-4662-b5e3-79a3c5f64e21")
+		)
+		(pin ""
+			(uuid "a082a9e1-0283-42a8-a213-c09181ee2e48")
+		)
+		(pin ""
+			(uuid "3afe9067-8fa7-4161-96c0-3ed3b3481294")
+		)
+		(pin ""
+			(uuid "d07fedb7-1257-4a1b-90e9-fefe2af3d74e")
+		)
+		(pin ""
+			(uuid "be162ecd-0c55-42e5-9528-37c0b926baaf")
+		)
+		(instances
+			(project ""
+				(path "/f8d5e588-4357-488b-83a5-c5507066dba0"
+					(reference "Blue_Raven")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MST_RDT_Altimeters:SRAD_FC")
+		(at 214.63 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fa6cf4fe-5b5c-4185-bec9-348febd2d40d")
+		(property "Reference" "SRAD_FC"
+			(at 219.71 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 194.31 62.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 214.63 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 214.63 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "551f82e2-cb17-4a5b-a63a-2d7163c6aa7f")
+		)
+		(pin ""
+			(uuid "77d57dec-ca40-400b-92f1-a6da7180c13b")
+		)
+		(pin ""
+			(uuid "5708ef52-0b96-4854-8057-45994397bd06")
+		)
+		(pin ""
+			(uuid "7417f6ab-054e-4d03-9e37-591cba0e23cd")
+		)
+		(pin ""
+			(uuid "c34bfb0a-5c13-4abc-b3f8-6200eec0afd3")
+		)
+		(pin ""
+			(uuid "77d812c2-0df9-4950-bca6-d886401748b1")
+		)
+		(pin ""
+			(uuid "52a1d8a9-b35d-4530-bd5f-e4f847b3438e")
+		)
+		(pin ""
+			(uuid "f78aefb4-31b9-44b9-85fc-b51a4380131a")
+		)
+		(instances
+			(project ""
+				(path "/f8d5e588-4357-488b-83a5-c5507066dba0"
+					(reference "SRAD_FC")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPDT")
+		(at 88.9 168.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe6b929e-b130-45a8-bd42-3d1ee1cbc885")
+		(property "Reference" "SW3(PullPin)"
+			(at 93.98 167.6399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_SPDT"
+			(at 93.98 170.1799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 88.9 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b5e57f66-69b2-401c-bccc-4050e860f8bf")
+		)
+		(pin "1"
+			(uuid "09056110-25b9-4e6a-b34a-08fdeab3660b")
+		)
+		(pin "3"
+			(uuid "d875833d-01e9-4e78-b62f-56a55df67d1d")
+		)
+		(instances
+			(project "Avionics_Bay_Liquid_FS2025"
+				(path "/f8d5e588-4357-488b-83a5-c5507066dba0"
+					(reference "SW3(PullPin)")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 52.07 16.51)
+		(size 63.5 41.91)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "942c10e1-b4c4-4530-a52b-bcadd761c6d8")
+		(property "Sheetname" "Wiring Harness"
+			(at 52.07 15.7984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Wiring Harness.kicad_sch"
+			(at 52.07 59.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "BRD+" input
+			(at 52.07 53.34 180)
+			(uuid "1830d6f5-f2ca-4490-93ee-72e68fb6668c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BRD-" input
+			(at 52.07 55.88 180)
+			(uuid "1175c148-0ec8-402b-a921-0a47d5a24f28")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BRM+" input
+			(at 52.07 48.26 180)
+			(uuid "ca586a51-7cf7-4d6e-a1fb-ce9ead7c31b0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BRM-" input
+			(at 52.07 50.8 180)
+			(uuid "81b203c6-06cc-4c87-8df8-bb80778d6419")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TMD+" input
+			(at 115.57 50.8 0)
+			(uuid "8d399fe9-c780-4e67-9046-97f762b522e9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TMD-" input
+			(at 115.57 48.26 0)
+			(uuid "a5c91d87-d64d-419f-90f7-394fc8d06203")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TMM+" input
+			(at 115.57 55.88 0)
+			(uuid "944c5e9e-2659-4df0-9521-5e070c58b34a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TMM-" input
+			(at 115.57 53.34 0)
+			(uuid "749c0149-3356-4e85-baa5-5f7ceda74aa3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Avionics_Bay_Liquid_FS2025"
+				(path "/f8d5e588-4357-488b-83a5-c5507066dba0"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
