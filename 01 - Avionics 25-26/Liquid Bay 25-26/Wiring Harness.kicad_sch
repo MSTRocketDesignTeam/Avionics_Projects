@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Liquid Project Avionics Bay Wiring")
-		(date "2025-10-10")
+		(date "2025-10-11")
 		(rev "IR")
 		(company "Missouri S&T Rocket Design Team")
 		(comment 1 "Author(s): Isaac Lough")
@@ -1057,9 +1057,19 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Wires should be 14\" Long and then cut and stripped before soldering them to the M12. "
+		(exclude_from_sim no)
+		(at 143.764 81.026 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "7c7cd324-4a2d-4045-85de-679bce912898")
+	)
 	(wire
 		(pts
-			(xy 90.17 81.28) (xy 100.33 81.28)
+			(xy 53.34 93.98) (xy 229.87 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1069,7 +1079,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 93.98) (xy 100.33 93.98)
+			(xy 53.34 106.68) (xy 229.87 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1079,7 +1089,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 88.9) (xy 100.33 88.9)
+			(xy 53.34 101.6) (xy 229.87 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1089,7 +1099,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 99.06) (xy 100.33 99.06)
+			(xy 53.34 111.76) (xy 229.87 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1099,7 +1109,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 91.44) (xy 100.33 91.44)
+			(xy 53.34 104.14) (xy 229.87 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1109,7 +1119,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 83.82) (xy 100.33 83.82)
+			(xy 53.34 96.52) (xy 229.87 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1119,7 +1129,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 86.36) (xy 100.33 86.36)
+			(xy 53.34 99.06) (xy 229.87 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1129,7 +1139,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 96.52) (xy 100.33 96.52)
+			(xy 53.34 109.22) (xy 229.87 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1139,7 +1149,7 @@
 	)
 	(hierarchical_label "BRM+"
 		(shape input)
-		(at 90.17 81.28 180)
+		(at 53.34 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1150,7 +1160,7 @@
 	)
 	(hierarchical_label "TMM+"
 		(shape input)
-		(at 90.17 91.44 180)
+		(at 53.34 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1161,7 +1171,7 @@
 	)
 	(hierarchical_label "TMD+"
 		(shape input)
-		(at 90.17 96.52 180)
+		(at 53.34 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1172,7 +1182,7 @@
 	)
 	(hierarchical_label "TMD-"
 		(shape input)
-		(at 90.17 99.06 180)
+		(at 53.34 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1183,7 +1193,7 @@
 	)
 	(hierarchical_label "BRM-"
 		(shape input)
-		(at 90.17 83.82 180)
+		(at 53.34 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1194,7 +1204,7 @@
 	)
 	(hierarchical_label "TMM-"
 		(shape input)
-		(at 90.17 93.98 180)
+		(at 53.34 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1205,7 +1215,7 @@
 	)
 	(hierarchical_label "BRD-"
 		(shape input)
-		(at 90.17 88.9 180)
+		(at 53.34 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1216,7 +1226,7 @@
 	)
 	(hierarchical_label "BRD+"
 		(shape input)
-		(at 90.17 86.36 180)
+		(at 53.34 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1227,7 +1237,7 @@
 	)
 	(symbol
 		(lib_id "2601-3108:M12A-08PMMP-SF8001")
-		(at 100.33 81.28 0)
+		(at 229.87 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1236,7 +1246,7 @@
 		(fields_autoplaced yes)
 		(uuid "2f71ddbe-a66a-4b03-ad23-39b81436aabc")
 		(property "Reference" "J2"
-			(at 114.3 88.8999 0)
+			(at 243.84 101.5999 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1245,7 +1255,7 @@
 			)
 		)
 		(property "Value" "M12A-08PMMP-SF8001"
-			(at 114.3 91.4399 0)
+			(at 243.84 104.1399 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1254,7 +1264,7 @@
 			)
 		)
 		(property "Footprint" "CONN_M12A-08PMMP-SF8001_AMP"
-			(at 100.33 81.28 0)
+			(at 229.87 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1264,7 +1274,7 @@
 			)
 		)
 		(property "Datasheet" "M12A-08PMMP-SF8001"
-			(at 100.33 81.28 0)
+			(at 229.87 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1274,7 +1284,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 100.33 81.28 0)
+			(at 229.87 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Liquid Project Avionics Bay Wiring")
-		(date "2025-10-10")
+		(date "2025-10-11")
 		(rev "IR")
 		(company "Missouri S&T Rocket Design Team")
 		(comment 1 "Author(s): Isaac Lough")
