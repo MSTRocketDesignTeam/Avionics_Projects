@@ -1,0 +1,15 @@
+This is the folder that contains the second revision of the SRAD FC. This is an entirely new board. It is designed for spaceshot under these requirements:
+
+Must be able to record 62+ mi (327,360ft) ASL 
+Must have GPS altimetry 
+Must have barometer for altimetry (for redundancy) 
+Must have at least 256 KB of FLASH (enough flash to store all the libraries needed for the code) 
+C++/Arduino Programmable 
+Must have telemetry (RF module. Either 900 MHz or 1-2.4 GHz) 
+Must be small and compact 
+Must record acceleration and speed (must have an IMU) 
+Must have two pyro channels (main and drogue deployment) 
+Must store non-volatile data onboard 
+Must be able to tell direction/heading of the rocket 
+
+Documentation found here: https://mailmissouri.sharepoint.com/:w:/r/sites/RocketDesignTeam409-Ogrp/_layouts/15/Doc.aspx?sourcedoc=%7BF6AABF8C-9207-4E4B-BE50-5B4B0391859A%7D&file=Design%20Overview%20Template.docx&action=default&mobileredirect=true
