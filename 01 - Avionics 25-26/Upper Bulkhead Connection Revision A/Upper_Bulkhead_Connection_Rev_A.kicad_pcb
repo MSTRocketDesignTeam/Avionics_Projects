@@ -1255,7 +1255,7 @@
 		(layer "Edge.Cuts")
 		(uuid "fd65a49f-a9fa-4686-9ab9-c21e5e1d14c1")
 	)
-	(gr_text "TMA+"
+	(gr_text "TMD+"
 		(at 109.5 91 90)
 		(layer "F.SilkS")
 		(uuid "15139ebc-a971-4e2b-9d0d-22a17ac1fef3")
@@ -1294,8 +1294,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "TMA-"
-		(at 113 91 90)
+	(gr_text "TMD-"
+		(at 113.25 91 90)
 		(layer "F.SilkS")
 		(uuid "1c249919-ff02-4bbe-929b-e4d6ac11f4e9")
 		(effects
@@ -1333,7 +1333,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "TMA-"
+	(gr_text "TMD-"
 		(at 100.25 99.5 90)
 		(layer "F.SilkS")
 		(uuid "5a43df4f-af54-4071-a028-ec5b9cc94b5a")
@@ -1411,7 +1411,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "TMA+"
+	(gr_text "TMD+"
 		(at 96 102 90)
 		(layer "F.SilkS")
 		(uuid "a66f82ee-263f-4fd1-bd57-e3ce13b3ec17")
@@ -1554,8 +1554,8 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "TMA+"
-		(at 108.5 91 -90)
+	(gr_text "TMD+"
+		(at 108.5 91 270)
 		(layer "B.SilkS")
 		(uuid "54fbcc20-f609-4cac-82e8-f8c5ab3a399f")
 		(effects
@@ -1567,8 +1567,8 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "TMA-"
-		(at 112 91 -90)
+	(gr_text "TMD-"
+		(at 112 91 270)
 		(layer "B.SilkS")
 		(uuid "84acd478-ad09-4224-81b3-413b63958329")
 		(effects
@@ -1580,8 +1580,8 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "TMA-"
-		(at 99 99.5 -90)
+	(gr_text "TMD-"
+		(at 99 99.5 270)
 		(layer "B.SilkS")
 		(uuid "899e560a-1b76-4631-8770-62bb5678af87")
 		(effects
@@ -1606,8 +1606,8 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "TMA+"
-		(at 94.75 102 -90)
+	(gr_text "TMD+"
+		(at 94.75 102 270)
 		(layer "B.SilkS")
 		(uuid "94977905-8814-4298-8e47-f5178f683616")
 		(effects
