@@ -268,7 +268,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48e5d4c7-2b75-434c-8ba3-51c9d09eab00")
-		(property "Reference" "U1"
+		(property "Reference" "Storage"
 			(at 144.78 69.85 0)
 			(effects
 				(font
@@ -294,7 +294,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7161/256_W25Q128JV.pdf"
 			(at 144.78 90.17 0)
 			(effects
 				(font
@@ -303,7 +303,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "3V 128M-BIT  SERIAL FLASH MEMORY WITH   DUAL/QUAD SPI"
+			(at 144.78 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/winbond-electronics/W25Q128JVSIQ/5803943"
 			(at 144.78 90.17 0)
 			(effects
 				(font
@@ -379,7 +388,7 @@
 		(instances
 			(project ""
 				(path "/1dd9e63a-24f2-43c6-ae21-66b89e6998f2/7a96f78f-7769-410f-82f2-b37baf0f0866"
-					(reference "U1")
+					(reference "Storage")
 					(unit 1)
 				)
 			)

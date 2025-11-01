@@ -636,7 +636,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a91b5cd-2a77-456e-a49c-7dfb00fdf30a")
-		(property "Reference" "U2"
+		(property "Reference" "RFModule"
 			(at 135.89 63.5 0)
 			(effects
 				(font
@@ -662,7 +662,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://semtech.my.salesforce.com/sfc/p/#E0000000JelG/a/2R0000001OKs/Bs97dmPXeatnbdoJNVMIDaKDlQz8q1N_gxDcgqi7g2o"
 			(at 135.89 101.6 0)
 			(effects
 				(font
@@ -671,7 +671,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SX1276/77/78/79 - 137 MHz to 1020 MHz Low Power Long Range Transceiver"
+			(at 135.89 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.com/en/products/detail/semtech-corporation/SX1276IMLTRT/4259565"
 			(at 135.89 101.6 0)
 			(effects
 				(font
@@ -800,7 +809,7 @@
 		(instances
 			(project ""
 				(path "/1dd9e63a-24f2-43c6-ae21-66b89e6998f2/c560a1ce-e177-4cce-a057-3c7d08124339"
-					(reference "U2")
+					(reference "RFModule")
 					(unit 1)
 				)
 			)
