@@ -46,6 +46,26 @@
 				(justify left top)
 			)
 		)
+		(pin "+3.6V" output
+			(at 102.87 162.56 90)
+			(uuid "85e63004-e5da-476e-928f-1795514a2669")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+1.8V" output
+			(at 105.41 162.56 90)
+			(uuid "d23c032c-9bad-4659-a088-99cb36dabc9d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "SRAD FC Rev B"
 				(path "/1dd9e63a-24f2-43c6-ae21-66b89e6998f2"
