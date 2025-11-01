@@ -1532,7 +1532,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37b6bbf4-d6f0-4ce9-bf35-2208d4feb534")
-		(property "Reference" "GPS"
+		(property "Reference" "GPS1"
 			(at 139.7 67.31 0)
 			(effects
 				(font
@@ -1689,7 +1689,7 @@
 		(instances
 			(project "SRAD FC Rev B"
 				(path "/1dd9e63a-24f2-43c6-ae21-66b89e6998f2/b03efcbd-12ef-4a08-953b-a02584827ea7"
-					(reference "GPS")
+					(reference "GPS1")
 					(unit 1)
 				)
 			)

@@ -1592,7 +1592,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "efb7d0c7-0405-4ec5-a932-b97255f89484")
-		(property "Reference" "U1"
+		(property "Reference" "Microcontroller1"
 			(at 125.3333 142.24 0)
 			(effects
 				(font
@@ -1842,7 +1842,7 @@
 		(instances
 			(project ""
 				(path "/1dd9e63a-24f2-43c6-ae21-66b89e6998f2/9bb21508-08d3-4d29-a04f-971573e7774c"
-					(reference "U1")
+					(reference "Microcontroller1")
 					(unit 1)
 				)
 			)
