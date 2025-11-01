@@ -1548,7 +1548,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SAM_M10Q_00B:XCVR_SAM-M10Q-00B"
+		(property "Footprint" "Package_LGA:ublox_LGA-53_4.5x4.5mm_Layout9x9_P0.5mm"
 			(at 139.7 90.17 0)
 			(effects
 				(font
