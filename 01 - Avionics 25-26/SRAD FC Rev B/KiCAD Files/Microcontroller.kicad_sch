@@ -1638,6 +1638,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" "https://www.digikey.com/en/products/detail/stmicroelectronics/STM32F722RCT6/7313338"
+			(at 120.65 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "33"
 			(uuid "dd9ca815-8cd4-409c-aecb-29833ea2d2fa")
 		)
