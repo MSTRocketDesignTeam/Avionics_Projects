@@ -1550,6 +1550,27 @@
 		)
 		(uuid "5c3070af-8388-4416-a7c5-3d63c81e4dc8")
 	)
+	(wire
+		(pts
+			(xy 118.11 38.1) (xy 118.11 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e3dd66c-b574-4387-9d47-e0515b3c143d")
+	)
+	(hierarchical_label "VDD"
+		(shape input)
+		(at 118.11 38.1 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1df2303a-3351-4c94-aa17-f3646d64dbc0")
+	)
 	(hierarchical_label "VBAT"
 		(shape input)
 		(at 115.57 38.1 90)
