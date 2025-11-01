@@ -4,6 +4,13 @@
 	(generator_version "9.0")
 	(uuid "1dd9e63a-24f2-43c6-ae21-66b89e6998f2")
 	(paper "A4")
+	(title_block
+		(title "SRAD FC Revision B")
+		(date "2025-11-01")
+		(rev "B")
+		(company "Missouri S&T Rocket Design Team")
+		(comment 1 "Author(s): Aaron Brinker, Isaac Lough, Joseph Hinchie, Ryan Newey, and Ian Butrick")
+	)
 	(lib_symbols)
 	(sheet
 		(at 45.72 162.56)
