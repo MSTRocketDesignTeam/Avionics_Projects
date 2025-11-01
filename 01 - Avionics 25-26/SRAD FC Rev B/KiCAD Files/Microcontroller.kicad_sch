@@ -1540,6 +1540,27 @@
 			(embedded_fonts no)
 		)
 	)
+	(wire
+		(pts
+			(xy 115.57 38.1) (xy 115.57 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c3070af-8388-4416-a7c5-3d63c81e4dc8")
+	)
+	(hierarchical_label "VBAT"
+		(shape input)
+		(at 115.57 38.1 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ceda5529-2750-45fa-8a18-2c9de2507212")
+	)
 	(symbol
 		(lib_id "MCU_ST_STM32F7:STM32F722RCTx")
 		(at 120.65 93.98 0)
