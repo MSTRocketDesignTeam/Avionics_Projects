@@ -4,4 +4,6 @@
   (lib (name "SX1276IMLTRT")(type "KiCad")(uri "C:/Users/iabut/Downloads/SX1276IMLTRT/SX1276IMLTRT.kicad_sym")(options "")(descr ""))
   (lib (name "W25Q128JVSIQ")(type "KiCad")(uri "C:/Users/iabut/Downloads/W25Q128JVSIQ/W25Q128JVSIQ.kicad_sym")(options "")(descr ""))
   (lib (name "SAM-M10Q-00B")(type "KiCad")(uri "C:/Users/jthin/OneDrive/Desktop/KiCAD/SRAD_GPS_Circuit/SAM_M10Q_00B/SAM-M10Q-00B.kicad_sym")(options "")(descr ""))
+  (lib (name "2025-11-01_19-50-27")(type "KiCad")(uri "/home/yarn/MST/RDT/localSRAD/baro/KiCADv6/2025-11-01_19-50-27.kicad_sym")(options "")(descr ""))
+  (lib (name "2025-11-06_05-57-26")(type "KiCad")(uri "/home/yarn/MST/RDT/localSRAD/imu/2025-11-06_05-57-26.kicad_sym")(options "")(descr ""))
 )
