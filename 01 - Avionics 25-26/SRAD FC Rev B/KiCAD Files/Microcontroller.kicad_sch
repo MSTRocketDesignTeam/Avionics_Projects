@@ -2083,7 +2083,7 @@
 				)
 			)
 		)
-		(property "Value" "R (.15 ohm)"
+		(property "Value" "R (.3 ohm)"
 			(at 88.9 124.46 90)
 			(effects
 				(font
