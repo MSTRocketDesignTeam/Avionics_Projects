@@ -2141,75 +2141,82 @@
 		)
 		(uuid "f92d73d8-34bc-4341-bd01-d486a2c0cbf1")
 	)
-	(label "RF_DIO0"
-		(at 163.83 111.76 0)
+	(hierarchical_label "RF_CS"
+		(shape input)
+		(at 95.25 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "48a39403-6d87-43ae-af87-65e48938d758")
+		(uuid "2054aa5a-095b-4d2d-8071-158a47772750")
 	)
-	(label "RF_CS"
-		(at 95.25 96.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "588ff696-7957-4a17-9b69-a7a921696710")
-	)
-	(label "RF_SPI_SCK"
-		(at 95.25 88.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "743595b0-fb82-48db-bb31-ec28a42e60d7")
-	)
-	(label "RF_DIO1"
+	(hierarchical_label "RF_DIO1"
+		(shape input)
 		(at 163.83 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "7e6c3838-d1f0-4653-8c98-d75caf9632c0")
+		(uuid "59441df8-d23f-48f7-841d-808f0e33245a")
 	)
-	(label "RF_SPI_MISO"
-		(at 95.25 91.44 0)
+	(hierarchical_label "RF_SPI_MOSI"
+		(shape input)
+		(at 95.25 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "946077fe-a890-4fd7-9cfe-a0f477f15c1c")
+		(uuid "a5188d7b-b78b-441e-8421-f0fec19922fb")
 	)
-	(label "RF_NRESET"
+	(hierarchical_label "RF_DIO0"
+		(shape input)
+		(at 163.83 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a579418c-1949-4b4f-b826-1094ff0cff21")
+	)
+	(hierarchical_label "RF_SPI_SCK"
+		(shape input)
+		(at 95.25 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c66f2d26-ab0f-423b-9567-cfbc68f7aa62")
+	)
+	(hierarchical_label "RF_SPI_MISO"
+		(shape input)
+		(at 95.25 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d0ac4c5d-9697-4b7d-a80e-e40b96d3c746")
+	)
+	(hierarchical_label "RF_NRESET"
+		(shape input)
 		(at 120.65 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "bd4eb26d-ed19-4d85-950c-25d1ebbc3d4f")
-	)
-	(label "RF_SPI_MOSI"
-		(at 95.25 93.98 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f4e32b7d-892b-49bc-aeda-c3fd0b51835d")
+		(uuid "f57af18a-ebe3-4ed9-945f-1ef202c92ab8")
 	)
 	(symbol
 		(lib_id "Device:R")

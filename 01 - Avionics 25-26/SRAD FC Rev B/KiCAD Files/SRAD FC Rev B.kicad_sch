@@ -108,6 +108,46 @@
 				(justify left top)
 			)
 		)
+		(pin "FLASH_MISO" input
+			(at 198.12 96.52 0)
+			(uuid "fa421880-579b-4587-9f31-a432a4621542")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FLASH_CS" input
+			(at 198.12 99.06 0)
+			(uuid "31fbc91a-3938-406d-bdb6-f660e25a4b29")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FLASH_MOSI" input
+			(at 198.12 101.6 0)
+			(uuid "24ab1000-c099-40df-bcdc-7b0536ee4d1f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FLASH_SCK" input
+			(at 198.12 104.14 0)
+			(uuid "7967d8ba-6f8e-4e2c-9d02-34280db7366d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "SRAD FC Rev B"
 				(path "/1dd9e63a-24f2-43c6-ae21-66b89e6998f2"
@@ -396,6 +436,76 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "RF_CS" input
+			(at 154.94 39.37 180)
+			(uuid "0487717e-b00b-42d3-ac8f-c666935f267d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RF_DIO0" input
+			(at 182.88 39.37 0)
+			(uuid "a495d17e-2929-4d64-a9c8-453bb525e939")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RF_DIO1" input
+			(at 182.88 41.91 0)
+			(uuid "7cefa152-77d4-417a-bdd9-87895b6ae37a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RF_NRESET" input
+			(at 154.94 46.99 180)
+			(uuid "4ed6336f-d356-4ea2-b4bc-938b0b71ff42")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RF_SPI_MISO" input
+			(at 154.94 34.29 180)
+			(uuid "e0285fc3-94ba-45b7-bee6-d6c35a87d92b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RF_SPI_MOSI" input
+			(at 154.94 36.83 180)
+			(uuid "92af74b3-fac5-4e08-a1cd-834e563a3e48")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RF_SPI_SCK" input
+			(at 154.94 31.75 180)
+			(uuid "1318ca91-e841-4080-be24-ef8e2a771712")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
