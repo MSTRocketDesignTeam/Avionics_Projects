@@ -6,4 +6,5 @@
   (lib (name "SAM-M10Q-00B")(type "KiCad")(uri "C:/Users/jthin/OneDrive/Desktop/KiCAD/SRAD_GPS_Circuit/SAM_M10Q_00B/SAM-M10Q-00B.kicad_sym")(options "")(descr ""))
   (lib (name "2025-11-01_19-50-27")(type "KiCad")(uri "/home/yarn/MST/RDT/localSRAD/baro/KiCADv6/2025-11-01_19-50-27.kicad_sym")(options "")(descr ""))
   (lib (name "2025-11-06_05-57-26")(type "KiCad")(uri "/home/yarn/MST/RDT/localSRAD/imu/2025-11-06_05-57-26.kicad_sym")(options "")(descr ""))
+  (lib (name "ADXL372BCCZ-RL7")(type "KiCad")(uri "${KIPRJMOD}/ADXL372BCCZ_RL7/ADXL372BCCZ-RL7.kicad_sym")(options "")(descr ""))
 )

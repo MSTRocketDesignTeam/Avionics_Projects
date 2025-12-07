@@ -12,6 +12,94 @@
 		(comment 1 "Author(s): Aaron Brinker, Isaac Lough, Joseph Hinchie, Ryan Newey, and Ian Butrick")
 	)
 	(lib_symbols)
+	(hierarchical_label "ACCEL_INT2"
+		(shape output)
+		(at 189.23 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0e765f26-7619-4a71-8da1-1b019e913e1b")
+	)
+	(hierarchical_label "ACCEL_SPI_SCLK"
+		(shape output)
+		(at 189.23 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "247c5e8d-311f-4ff1-b3c9-6ad816e901df")
+	)
+	(hierarchical_label "ACCEL_SPI_CS"
+		(shape output)
+		(at 189.23 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "65c5944e-c8a2-4b57-9bf7-d100083f7d79")
+	)
+	(hierarchical_label "ACCEL_SPI_MOSI"
+		(shape output)
+		(at 189.23 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "758543d5-b3df-41c1-9457-7eecf7df0776")
+	)
+	(hierarchical_label "ACCEL_VS"
+		(shape output)
+		(at 234.95 33.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9c3c3b3f-b31f-4e49-bb68-b22a165b6450")
+	)
+	(hierarchical_label "ACCEL_VDD_IO"
+		(shape output)
+		(at 234.95 30.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b159bd07-78be-468e-ad6a-14c1a29e426b")
+	)
+	(hierarchical_label "ACCEL_INT1"
+		(shape output)
+		(at 189.23 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d8867d04-523d-4fa3-95ea-1d03263a6583")
+	)
+	(hierarchical_label "ACCEL_SPI_MISO"
+		(shape output)
+		(at 189.23 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f5da441f-172a-4cf2-a368-bf6bbe4c7bbe")
+	)
 	(sheet
 		(at 45.72 162.56)
 		(size 63.5 26.67)
