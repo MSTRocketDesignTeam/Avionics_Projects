@@ -12,6 +12,26 @@
 		(comment 1 "Author(s): Aaron Brinker, Isaac Lough, Joseph Hinchie, Ryan Newey, and Ian Butrick")
 	)
 	(lib_symbols)
+	(text_box "Vs is sensitive to noise. Increased noise will increase measurement error. If Vs and Vdd i/o share the same source, it can lead to clock noise on the Vs line. If we are stuck with a noisy voltage source for Vs then there are things we can do in the accelerometer schematic to mitigate the issue.\n\nAdditionally, Vs prefers to be at 2.5v, although it will function between 1.6v and 3.3v."
+		(exclude_from_sim no)
+		(at 237.49 25.4 0)
+		(size 34.29 30.48)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "18897fd1-e51c-43a5-b031-ca6bb759a127")
+	)
 	(hierarchical_label "ACCEL_INT2"
 		(shape output)
 		(at 189.23 46.99 0)
