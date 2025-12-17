@@ -1816,30 +1816,8 @@
 		(uuid "679044f1-5ceb-4b9f-8845-7b5c526a7413")
 	)
 	(no_connect
-		(at 154.94 73.66)
-		(uuid "3603b481-2f60-4420-bcde-13001da423db")
-	)
-	(no_connect
-		(at 95.25 93.98)
-		(uuid "789aac41-35ad-4d08-853d-45b8741067ca")
-	)
-	(no_connect
 		(at 137.16 63.5)
 		(uuid "8d72380a-8d37-4152-886e-4d8e51a0b545")
-	)
-	(no_connect
-		(at 53.34 71.12)
-		(uuid "a20b08a9-6986-4d63-90d6-bb853f17d363")
-	)
-	(wire
-		(pts
-			(xy 82.55 96.52) (xy 100.33 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0757b269-db86-4472-8322-6b89a25f77d4")
 	)
 	(wire
 		(pts
@@ -1883,16 +1861,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 60.96) (xy 153.67 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a19ca6f-b493-4e9b-8646-cbe8d66fd158")
-	)
-	(wire
-		(pts
 			(xy 120.65 38.1) (xy 120.65 45.72)
 		)
 		(stroke
@@ -1900,16 +1868,6 @@
 			(type default)
 		)
 		(uuid "35c34fdb-c314-4f98-b5da-14736fd0b0a3")
-	)
-	(wire
-		(pts
-			(xy 140.97 58.42) (xy 153.67 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4060dc96-f7c4-4c37-8e2f-00255b0fa91d")
 	)
 	(wire
 		(pts
@@ -2063,16 +2021,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 63.5) (xy 100.33 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff4853dc-536a-4a1f-96f8-5d10ad14c9d6")
-	)
-	(wire
-		(pts
 			(xy 100.33 109.22) (xy 92.71 109.22)
 		)
 		(stroke
@@ -2158,28 +2106,6 @@
 		)
 		(uuid "66d320c8-1dd8-4754-a76d-e781aa341dc5")
 	)
-	(hierarchical_label "STLINK_RX"
-		(shape input)
-		(at 153.67 60.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6d42875a-681e-46bd-9cbd-461ed9da2c83")
-	)
-	(hierarchical_label "STLINK_MCO"
-		(shape input)
-		(at 92.71 63.5 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9573f0aa-6bc8-4a26-906b-cf6f3a4386da")
-	)
 	(hierarchical_label "STLINK_JTMS_SWDIO"
 		(shape input)
 		(at 82.55 101.6 180)
@@ -2224,17 +2150,6 @@
 		)
 		(uuid "d9e30a2d-9b56-48d8-935e-26a8e0715e38")
 	)
-	(hierarchical_label "STLINK_TX"
-		(shape input)
-		(at 153.67 58.42 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ea864847-2d27-4544-a0b0-8a0b4f5e3261")
-	)
 	(hierarchical_label "VDD"
 		(shape input)
 		(at 120.65 38.1 90)
@@ -2256,17 +2171,6 @@
 			(justify right)
 		)
 		(uuid "f6bc740f-c907-4d96-a9aa-abb3fd71afed")
-	)
-	(hierarchical_label "STLINK_MCO"
-		(shape input)
-		(at 82.55 96.52 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f8b1c7bb-f425-4041-a2d4-a5165aaaa0b0")
 	)
 	(symbol
 		(lib_id "Device:R")

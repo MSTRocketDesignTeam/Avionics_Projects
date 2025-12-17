@@ -637,36 +637,6 @@
 				(justify right)
 			)
 		)
-		(pin "STLINK_TX" input
-			(at 78.74 138.43 0)
-			(uuid "8088259f-9ac6-47f7-82de-a4cf09184f52")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "STLINK_MCO" input
-			(at 78.74 140.97 0)
-			(uuid "e07d47da-1dcb-43e0-b066-d99b97def194")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "STLINK_RX" input
-			(at 78.74 135.89 0)
-			(uuid "2f9a9f66-1571-49ff-b674-41b94f60d08a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "STLINK_JTCK_SWCLK" input
 			(at 78.74 130.81 0)
 			(uuid "749337f7-c610-4a9e-b117-b434d0957b93")
