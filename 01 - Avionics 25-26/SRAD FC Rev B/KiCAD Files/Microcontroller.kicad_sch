@@ -2139,6 +2139,17 @@
 		)
 		(uuid "66d320c8-1dd8-4754-a76d-e781aa341dc5")
 	)
+	(hierarchical_label "MCU_BARO_SPI_CS"
+		(shape input)
+		(at 160.02 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6a2456ab-dbc0-4872-ad59-3d83315c1699")
+	)
 	(hierarchical_label "MCU_SPI_MISO"
 		(shape input)
 		(at 160.02 72.39 0)
@@ -2160,6 +2171,17 @@
 			(justify left)
 		)
 		(uuid "83804cd4-d664-46ef-a779-282493f14965")
+	)
+	(hierarchical_label "MCU_IMU_SPI_CS"
+		(shape input)
+		(at 160.02 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8c1afd53-8e60-4ee7-baf8-2d8ebcf0fc4a")
 	)
 	(hierarchical_label "MCU_SPI_MOSI"
 		(shape input)
