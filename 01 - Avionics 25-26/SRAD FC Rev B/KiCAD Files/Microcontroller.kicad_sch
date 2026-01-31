@@ -2117,6 +2117,17 @@
 		)
 		(uuid "4fe93d5e-7fff-4000-8d10-7e71ca5b5060")
 	)
+	(hierarchical_label "MCU_GPS_UART_TX"
+		(shape input)
+		(at 160.02 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "54b006d9-8bd7-4fe4-b8e3-5888f4804abf")
+	)
 	(hierarchical_label "VCAP_1"
 		(shape input)
 		(at 68.58 116.84 180)
@@ -2193,6 +2204,17 @@
 			(justify left)
 		)
 		(uuid "95ea084a-ba28-42f6-9f69-65a6c0456ec4")
+	)
+	(hierarchical_label "MCU_GPS_UART_RX"
+		(shape input)
+		(at 160.02 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a8162add-46c3-45a5-9a25-412333ba83e8")
 	)
 	(hierarchical_label "STLINK_JTMS_SWDIO"
 		(shape input)
