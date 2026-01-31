@@ -444,6 +444,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+3.3V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -545,6 +670,26 @@
 			)
 			(embedded_fonts no)
 		)
+	)
+	(text_box "Vs is sensitive to noise. Increased noise will increase measurement error. If Vs and Vdd i/o share the same source, it can lead to clock noise on the Vs line. If we are stuck with a noisy voltage source for Vs then there are things we can do in the accelerometer schematic to mitigate the issue.\n\nAdditionally, Vs prefers to be at 2.5v, although it will function between 1.6v and 3.3v."
+		(exclude_from_sim no)
+		(at 137.16 116.84 0)
+		(size 34.29 30.48)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "f1eb2fc6-cca9-435b-b30c-93c8d469b3e5")
 	)
 	(junction
 		(at 171.45 69.85)
@@ -750,17 +895,6 @@
 		)
 		(uuid "fa642770-b376-4d3b-b957-7702d73f576a")
 	)
-	(hierarchical_label "ACCEL_VDD_IO"
-		(shape input)
-		(at 185.42 85.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "23453bf4-33bf-4d08-b5e8-95e0bce76de7")
-	)
 	(hierarchical_label "ACCEL_SPI_CS"
 		(shape input)
 		(at 123.19 92.71 180)
@@ -771,17 +905,6 @@
 			(justify right)
 		)
 		(uuid "23b7a862-105b-4c4d-8e34-821cf8cef6c1")
-	)
-	(hierarchical_label "ACCEL_VS"
-		(shape input)
-		(at 185.42 82.55 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "24242b84-8ba7-4a5e-a617-7231865b6ce1")
 	)
 	(hierarchical_label "ACCEL_SPI_SCLK"
 		(shape input)
@@ -965,6 +1088,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 185.42 85.09 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "31193879-e61b-4382-95b0-3434aaff52f1")
+		(property "Reference" "#PWR027"
+			(at 181.61 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 189.23 85.0899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 185.42 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2afc691a-7311-4782-8319-b77acd26b8a1")
+		)
+		(instances
+			(project "SRAD FC Rev B"
+				(path "/1dd9e63a-24f2-43c6-ae21-66b89e6998f2/a64879cb-ca83-46f5-8e0d-bba02df69177"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 179.07 74.93 0)
 		(unit 1)
@@ -1029,6 +1219,73 @@
 			(project ""
 				(path "/1dd9e63a-24f2-43c6-ae21-66b89e6998f2/a64879cb-ca83-46f5-8e0d-bba02df69177"
 					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 185.42 82.55 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab587666-4c87-456d-869f-73534432c097")
+		(property "Reference" "#PWR026"
+			(at 181.61 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+2.5V"
+			(at 189.23 82.5499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1.8V\""
+			(at 185.42 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ec781f04-9b95-4451-a443-c25f1fbc7f00")
+		)
+		(instances
+			(project "SRAD FC Rev B"
+				(path "/1dd9e63a-24f2-43c6-ae21-66b89e6998f2/a64879cb-ca83-46f5-8e0d-bba02df69177"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
