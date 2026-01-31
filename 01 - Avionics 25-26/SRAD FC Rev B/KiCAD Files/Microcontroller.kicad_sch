@@ -2051,6 +2051,17 @@
 		)
 		(uuid "1df2303a-3351-4c94-aa17-f3646d64dbc0")
 	)
+	(hierarchical_label "MCU_IMU_INT1"
+		(shape input)
+		(at 160.02 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "21a7083b-4b26-47a1-af40-54b9ab7c7f3f")
+	)
 	(hierarchical_label "VSS"
 		(shape input)
 		(at 120.65 147.32 270)
@@ -2072,6 +2083,17 @@
 			(justify left)
 		)
 		(uuid "2aba906d-eff9-42c5-83b7-9a640628b04b")
+	)
+	(hierarchical_label "MCU_ACCEL_INT2"
+		(shape input)
+		(at 160.02 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "352c3da3-2bf7-43f1-99a9-a7de0d6db685")
 	)
 	(hierarchical_label "MCU_RF_SPI_CS"
 		(shape input)
@@ -2248,6 +2270,17 @@
 			(justify left)
 		)
 		(uuid "ceda5529-2750-45fa-8a18-2c9de2507212")
+	)
+	(hierarchical_label "MCU_ACCEL_INT1"
+		(shape input)
+		(at 160.02 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d07bf4e4-a94d-4b41-ab01-826f7b8c9a2e")
 	)
 	(hierarchical_label "BOOT0"
 		(shape input)
