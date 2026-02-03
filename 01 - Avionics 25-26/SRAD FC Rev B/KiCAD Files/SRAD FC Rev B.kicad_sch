@@ -1012,16 +1012,6 @@
 				(justify right)
 			)
 		)
-		(pin "NRST" input
-			(at 53.34 147.32 270)
-			(uuid "81357bb4-b062-4d07-9787-cc56c2f2ac10")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "MCU_ACCEL_SPI_CS" input
 			(at 78.74 77.47 0)
 			(uuid "1dadd855-e5ac-4e49-b103-4d1c8464fd3b")
