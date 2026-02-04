@@ -9,7 +9,7 @@
 		(date "2025-11-01")
 		(rev "B")
 		(company "Missouri S&T Rocket Design Team")
-		(comment 1 "Author(s): Aaron Brinker, Isaac Lough, Joseph Hinchie, Ryan Newey, and Ian Butrick")
+		(comment 1 "Author(s): Aaron Brinker, Isaac Lough, Joseph Hinchie, Ryan Newey, Ian Butrick, and Adam Seals")
 	)
 	(lib_symbols)
 	(junction
@@ -950,6 +950,16 @@
 				(justify right)
 			)
 		)
+		(pin "FLASH_3.3V_POWER" input
+			(at 199.39 111.76 0)
+			(uuid "e7515b82-b30d-4348-8f7d-7dbe344947be")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "SRAD FC Rev B"
 				(path "/1dd9e63a-24f2-43c6-ae21-66b89e6998f2"
@@ -1286,6 +1296,26 @@
 				(justify left)
 			)
 		)
+		(pin "ACCEL_2.5V_POWER_SENSITIVE" input
+			(at 275.59 60.96 0)
+			(uuid "604d8920-f02e-4856-8c4d-a9d106888d89")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ACCEL_3.3V_POWER" input
+			(at 275.59 58.42 0)
+			(uuid "32234e5c-e60e-4f07-924d-d1e8edf27204")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "SRAD FC Rev B"
 				(path "/1dd9e63a-24f2-43c6-ae21-66b89e6998f2"
@@ -1386,6 +1416,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "GPS_3.3V_POWER" output
+			(at 274.32 152.4 0)
+			(uuid "928691de-8299-49a0-a2fd-7b0b3aa3561e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -1500,6 +1540,16 @@
 				(justify left)
 			)
 		)
+		(pin "RF_3.3V_POWER" input
+			(at 189.23 40.64 0)
+			(uuid "51dd6dd2-247d-470b-9f7e-d78537abe6e4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "SRAD FC Rev B"
 				(path "/1dd9e63a-24f2-43c6-ae21-66b89e6998f2"
@@ -1602,6 +1652,26 @@
 				(justify left)
 			)
 		)
+		(pin "IMU_1.71V-1.95V_POWER_VDDIO" input
+			(at 149.86 106.68 0)
+			(uuid "0378e56d-059a-4c7e-9df5-41f70c3e1afe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IMU_1.71V-1.95V_POWER_VDD" input
+			(at 149.86 109.22 0)
+			(uuid "ca7e41e2-b365-423b-9232-66a978be1560")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "SRAD FC Rev B"
 				(path "/1dd9e63a-24f2-43c6-ae21-66b89e6998f2"
@@ -1682,6 +1752,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "BARO_1.8V-3.6V_POWER" input
+			(at 138.43 44.45 0)
+			(uuid "ced5937c-6cdc-47d2-ad7d-7faef47284e0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
