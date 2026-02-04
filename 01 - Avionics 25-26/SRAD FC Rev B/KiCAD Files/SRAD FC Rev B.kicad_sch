@@ -1574,6 +1574,76 @@
 				(justify left top)
 			)
 		)
+		(pin "CURRENT_SENSE" output
+			(at 121.92 185.42 180)
+			(uuid "374101f1-710d-4e88-9a5b-a4f516bff076")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CH1_DETECT" output
+			(at 121.92 168.91 180)
+			(uuid "55dced7e-2f4d-431e-a307-8a37904de1bf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CH2_DETECT" output
+			(at 121.92 171.45 180)
+			(uuid "6cce6f87-555a-4189-8725-fc73ebcefcf6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CH1_FIRE" input
+			(at 121.92 176.53 180)
+			(uuid "f820596a-70d7-43c7-8a59-7c705fddd335")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ARMED" output
+			(at 121.92 163.83 180)
+			(uuid "333ad5b4-c63d-46f3-a222-9b88e5b7901e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CH2_FIRE" input
+			(at 121.92 179.07 180)
+			(uuid "8712f400-064b-48dc-b0b7-a3d31293117a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VBAT" input
+			(at 165.1 162.56 0)
+			(uuid "8dc44c6f-4400-4a26-be8d-57b18884ee32")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "SRAD FC Rev B"
 				(path "/1dd9e63a-24f2-43c6-ae21-66b89e6998f2"
