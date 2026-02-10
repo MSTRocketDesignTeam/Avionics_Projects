@@ -884,7 +884,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ADXL372BCCZ-RL7:PQFN50P322X300X114-16N"
+		(property "Footprint" "ADXL372BCCZ_RL7:PQFN50P322X300X114-16N"
 			(at 144.78 92.71 0)
 			(effects
 				(font

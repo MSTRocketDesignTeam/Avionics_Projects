@@ -3625,7 +3625,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1c92a8ed-2940-4e9a-8951-366398f650b7")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0107"
 			(at 220.345 137.795 0)
 			(effects
 				(font
@@ -3675,7 +3675,7 @@
 		(instances
 			(project "SRAD FC Rev B"
 				(path "/1dd9e63a-24f2-43c6-ae21-66b89e6998f2/9d37d36a-f460-49db-aaa9-575118e1aeb1"
-					(reference "#PWR?")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -3783,7 +3783,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "261dc02d-2811-45e1-9e42-0dfe30ba5a4c")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0102"
 			(at 59.055 118.745 0)
 			(effects
 				(font
@@ -3833,7 +3833,7 @@
 		(instances
 			(project "SRAD FC Rev B"
 				(path "/1dd9e63a-24f2-43c6-ae21-66b89e6998f2/9d37d36a-f460-49db-aaa9-575118e1aeb1"
-					(reference "#PWR?")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -3941,7 +3941,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "369b18a9-b5d4-4199-ba27-64de4e1458ba")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0108"
 			(at 158.75 167.005 0)
 			(effects
 				(font
@@ -3991,7 +3991,7 @@
 		(instances
 			(project "SRAD FC Rev B"
 				(path "/1dd9e63a-24f2-43c6-ae21-66b89e6998f2/9d37d36a-f460-49db-aaa9-575118e1aeb1"
-					(reference "#PWR?")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -4018,7 +4018,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "413f8153-d7ca-497e-899b-70956e9811f8")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0103"
 			(at 158.75 139.065 0)
 			(effects
 				(font
@@ -4068,7 +4068,7 @@
 		(instances
 			(project "SRAD FC Rev B"
 				(path "/1dd9e63a-24f2-43c6-ae21-66b89e6998f2/9d37d36a-f460-49db-aaa9-575118e1aeb1"
-					(reference "#PWR?")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -4528,7 +4528,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6aaaa667-5827-4b70-a761-148a24647486")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0105"
 			(at 236.855 132.08 0)
 			(effects
 				(font
@@ -4578,7 +4578,7 @@
 		(instances
 			(project "SRAD FC Rev B"
 				(path "/1dd9e63a-24f2-43c6-ae21-66b89e6998f2/9d37d36a-f460-49db-aaa9-575118e1aeb1"
-					(reference "#PWR?")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -4687,7 +4687,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7675f73c-6daf-4407-a197-534ad7900243")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0104"
 			(at 92.71 127 0)
 			(effects
 				(font
@@ -4737,7 +4737,7 @@
 		(instances
 			(project "SRAD FC Rev B"
 				(path "/1dd9e63a-24f2-43c6-ae21-66b89e6998f2/9d37d36a-f460-49db-aaa9-575118e1aeb1"
-					(reference "#PWR?")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -5549,7 +5549,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e7284552-aec8-4d37-b2fc-ae878b0df48e")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0106"
 			(at 236.855 151.765 0)
 			(effects
 				(font
@@ -5599,7 +5599,7 @@
 		(instances
 			(project "SRAD FC Rev B"
 				(path "/1dd9e63a-24f2-43c6-ae21-66b89e6998f2/9d37d36a-f460-49db-aaa9-575118e1aeb1"
-					(reference "#PWR?")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)

@@ -850,7 +850,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4ebbb9b-6449-41cf-ae02-832c506ae4bb")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0101"
 			(at 90.17 95.25 0)
 			(effects
 				(font
@@ -900,7 +900,7 @@
 		(instances
 			(project "SRAD FC Rev B"
 				(path "/1dd9e63a-24f2-43c6-ae21-66b89e6998f2/ed116dc3-f59f-469d-b0da-086663032b42"
-					(reference "#PWR?")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
