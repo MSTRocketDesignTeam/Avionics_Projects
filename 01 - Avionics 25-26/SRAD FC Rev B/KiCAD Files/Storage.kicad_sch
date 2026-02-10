@@ -1105,7 +1105,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85c4d02b-89d4-4641-9ac9-e7665e80727f")
-		(property "Reference" "R5"
+		(property "Reference" "R105"
 			(at 111.76 106.68 90)
 			(effects
 				(font
@@ -1157,7 +1157,7 @@
 		(instances
 			(project "SRAD FC Rev B"
 				(path "/1dd9e63a-24f2-43c6-ae21-66b89e6998f2/7a96f78f-7769-410f-82f2-b37baf0f0866"
-					(reference "R5")
+					(reference "R105")
 					(unit 1)
 				)
 			)
@@ -1173,7 +1173,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6cf66de-102e-4fcd-b5f8-fbd8b6a8e0ce")
-		(property "Reference" "R4"
+		(property "Reference" "R14"
 			(at 99.06 91.44 90)
 			(effects
 				(font
@@ -1225,7 +1225,7 @@
 		(instances
 			(project "SRAD FC Rev B"
 				(path "/1dd9e63a-24f2-43c6-ae21-66b89e6998f2/7a96f78f-7769-410f-82f2-b37baf0f0866"
-					(reference "R4")
+					(reference "R14")
 					(unit 1)
 				)
 			)

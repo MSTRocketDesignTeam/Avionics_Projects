@@ -2170,7 +2170,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02754334-881c-4b00-8cc5-ed796abd9d9f")
-		(property "Reference" "R3"
+		(property "Reference" "R103"
 			(at 106.68 105.41 90)
 			(effects
 				(font
@@ -2222,7 +2222,7 @@
 		(instances
 			(project ""
 				(path "/1dd9e63a-24f2-43c6-ae21-66b89e6998f2/c560a1ce-e177-4cce-a057-3c7d08124339"
-					(reference "R3")
+					(reference "R103")
 					(unit 1)
 				)
 			)

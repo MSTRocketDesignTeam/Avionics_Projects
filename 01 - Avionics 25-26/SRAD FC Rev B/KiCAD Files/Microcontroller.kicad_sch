@@ -3235,7 +3235,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80634b8e-e523-4d51-8786-75a2619769b9")
-		(property "Reference" "R2"
+		(property "Reference" "R13"
 			(at 85.09 130.81 90)
 			(effects
 				(font
@@ -3287,7 +3287,7 @@
 		(instances
 			(project ""
 				(path "/1dd9e63a-24f2-43c6-ae21-66b89e6998f2/9bb21508-08d3-4d29-a04f-971573e7774c"
-					(reference "R2")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -3303,7 +3303,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82e390c7-af99-441b-b9d9-ad5a12556d33")
-		(property "Reference" "R1"
+		(property "Reference" "R101"
 			(at 72.39 119.38 90)
 			(effects
 				(font
@@ -3355,7 +3355,7 @@
 		(instances
 			(project ""
 				(path "/1dd9e63a-24f2-43c6-ae21-66b89e6998f2/9bb21508-08d3-4d29-a04f-971573e7774c"
-					(reference "R1")
+					(reference "R101")
 					(unit 1)
 				)
 			)
@@ -3371,7 +3371,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc1fffd0-415e-4568-96e0-7e987d7f3010")
-		(property "Reference" "Reset_Swtich"
+		(property "Reference" "Reset_Swtich1"
 			(at 90.17 25.4 0)
 			(effects
 				(font
@@ -3423,7 +3423,7 @@
 		(instances
 			(project "SRAD FC Rev B"
 				(path "/1dd9e63a-24f2-43c6-ae21-66b89e6998f2/9bb21508-08d3-4d29-a04f-971573e7774c"
-					(reference "Reset_Swtich")
+					(reference "Reset_Swtich1")
 					(unit 1)
 				)
 			)
@@ -3521,7 +3521,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0905f9e-ca26-4ff5-9669-568263d2ebb2")
-		(property "Reference" "C3"
+		(property "Reference" "C103"
 			(at 85.09 118.11 90)
 			(effects
 				(font
@@ -3573,7 +3573,7 @@
 		(instances
 			(project ""
 				(path "/1dd9e63a-24f2-43c6-ae21-66b89e6998f2/9bb21508-08d3-4d29-a04f-971573e7774c"
-					(reference "C3")
+					(reference "C103")
 					(unit 1)
 				)
 			)

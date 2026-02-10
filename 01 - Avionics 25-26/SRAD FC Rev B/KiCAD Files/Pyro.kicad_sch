@@ -3463,7 +3463,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "02b7ccb6-a1e1-443a-8e19-fbd57e4e69ab")
-		(property "Reference" "R?"
+		(property "Reference" "R1"
 			(at 51.435 93.345 0)
 			(effects
 				(font
@@ -3517,7 +3517,7 @@
 		(instances
 			(project "SRAD FC Rev B"
 				(path "/1dd9e63a-24f2-43c6-ae21-66b89e6998f2/9d37d36a-f460-49db-aaa9-575118e1aeb1"
-					(reference "R?")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -3544,7 +3544,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "116f54a7-97cc-4a67-bffd-615e4a4c1898")
-		(property "Reference" "R?"
+		(property "Reference" "R2"
 			(at 60.325 104.775 0)
 			(effects
 				(font
@@ -3598,7 +3598,7 @@
 		(instances
 			(project "SRAD FC Rev B"
 				(path "/1dd9e63a-24f2-43c6-ae21-66b89e6998f2/9d37d36a-f460-49db-aaa9-575118e1aeb1"
-					(reference "R?")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -3702,7 +3702,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1ef46b12-27c3-49c1-902c-435dd34a47ee")
-		(property "Reference" "R?"
+		(property "Reference" "R5"
 			(at 151.13 116.84 0)
 			(effects
 				(font
@@ -3756,7 +3756,7 @@
 		(instances
 			(project "SRAD FC Rev B"
 				(path "/1dd9e63a-24f2-43c6-ae21-66b89e6998f2/9d37d36a-f460-49db-aaa9-575118e1aeb1"
-					(reference "R?")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -3860,7 +3860,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "29979ed5-76f3-448c-83eb-53931ff224a8")
-		(property "Reference" "R?"
+		(property "Reference" "R11"
 			(at 238.125 120.65 0)
 			(effects
 				(font
@@ -3914,7 +3914,7 @@
 		(instances
 			(project "SRAD FC Rev B"
 				(path "/1dd9e63a-24f2-43c6-ae21-66b89e6998f2/9d37d36a-f460-49db-aaa9-575118e1aeb1"
-					(reference "R?")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -4096,7 +4096,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4e701b99-09ba-471f-8244-f8e768cb58c2")
-		(property "Reference" "D?"
+		(property "Reference" "D3"
 			(at 52.07 105.41 90)
 			(effects
 				(font
@@ -4162,7 +4162,7 @@
 		(instances
 			(project "SRAD FC Rev B"
 				(path "/1dd9e63a-24f2-43c6-ae21-66b89e6998f2/9d37d36a-f460-49db-aaa9-575118e1aeb1"
-					(reference "D?")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -4189,7 +4189,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4e95a08e-9fdb-4985-b1dd-f2ca8b39cb76")
-		(property "Reference" "R?"
+		(property "Reference" "R12"
 			(at 238.125 140.335 0)
 			(effects
 				(font
@@ -4243,7 +4243,7 @@
 		(instances
 			(project "SRAD FC Rev B"
 				(path "/1dd9e63a-24f2-43c6-ae21-66b89e6998f2/9d37d36a-f460-49db-aaa9-575118e1aeb1"
-					(reference "R?")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -4270,7 +4270,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "56d43c08-e169-41ce-ae0c-8cd7e522a223")
-		(property "Reference" "J?"
+		(property "Reference" "J3"
 			(at 142.875 90.805 0)
 			(effects
 				(font
@@ -4339,7 +4339,7 @@
 		(instances
 			(project "SRAD FC Rev B"
 				(path "/1dd9e63a-24f2-43c6-ae21-66b89e6998f2/9d37d36a-f460-49db-aaa9-575118e1aeb1"
-					(reference "J?")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -4366,7 +4366,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5cbfab2d-24da-45ce-99e9-42e1df0c4258")
-		(property "Reference" "R?"
+		(property "Reference" "R9"
 			(at 234.95 113.665 90)
 			(effects
 				(font
@@ -4420,7 +4420,7 @@
 		(instances
 			(project "SRAD FC Rev B"
 				(path "/1dd9e63a-24f2-43c6-ae21-66b89e6998f2/9d37d36a-f460-49db-aaa9-575118e1aeb1"
-					(reference "R?")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -4447,7 +4447,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "69f34509-aaf0-4f9b-a2a0-bdc1eb04236b")
-		(property "Reference" "R?"
+		(property "Reference" "R7"
 			(at 160.02 125.73 0)
 			(effects
 				(font
@@ -4501,7 +4501,7 @@
 		(instances
 			(project "SRAD FC Rev B"
 				(path "/1dd9e63a-24f2-43c6-ae21-66b89e6998f2/9d37d36a-f460-49db-aaa9-575118e1aeb1"
-					(reference "R?")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -4605,7 +4605,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "73187b78-bc80-4e29-98a3-b810e04cb260")
-		(property "Reference" "R?"
+		(property "Reference" "R10"
 			(at 234.95 133.35 90)
 			(effects
 				(font
@@ -4659,7 +4659,7 @@
 		(instances
 			(project "SRAD FC Rev B"
 				(path "/1dd9e63a-24f2-43c6-ae21-66b89e6998f2/9d37d36a-f460-49db-aaa9-575118e1aeb1"
-					(reference "R?")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -4764,7 +4764,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7a7586af-badb-4103-8e2c-89c7ca333f62")
-		(property "Reference" "U?"
+		(property "Reference" "U2"
 			(at 86.995 96.52 0)
 			(effects
 				(font
@@ -4836,7 +4836,7 @@
 		(instances
 			(project "SRAD FC Rev B"
 				(path "/1dd9e63a-24f2-43c6-ae21-66b89e6998f2/9d37d36a-f460-49db-aaa9-575118e1aeb1"
-					(reference "U?")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -4864,7 +4864,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "899fec58-8e8b-4372-aad3-fd9f6a4b97e6")
-		(property "Reference" "D?"
+		(property "Reference" "D5"
 			(at 151.765 154.305 90)
 			(effects
 				(font
@@ -4930,7 +4930,7 @@
 		(instances
 			(project "SRAD FC Rev B"
 				(path "/1dd9e63a-24f2-43c6-ae21-66b89e6998f2/9d37d36a-f460-49db-aaa9-575118e1aeb1"
-					(reference "D?")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -4957,7 +4957,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "96f1ec8a-3963-49bb-a458-68599e65dd93")
-		(property "Reference" "R?"
+		(property "Reference" "R8"
 			(at 160.02 153.67 0)
 			(effects
 				(font
@@ -5011,7 +5011,7 @@
 		(instances
 			(project "SRAD FC Rev B"
 				(path "/1dd9e63a-24f2-43c6-ae21-66b89e6998f2/9d37d36a-f460-49db-aaa9-575118e1aeb1"
-					(reference "R?")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -5039,7 +5039,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "98c3cd44-5b56-49a1-8315-f7ae48482ef0")
-		(property "Reference" "D?"
+		(property "Reference" "D4"
 			(at 151.765 126.365 90)
 			(effects
 				(font
@@ -5105,7 +5105,7 @@
 		(instances
 			(project "SRAD FC Rev B"
 				(path "/1dd9e63a-24f2-43c6-ae21-66b89e6998f2/9d37d36a-f460-49db-aaa9-575118e1aeb1"
-					(reference "D?")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -5132,7 +5132,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9ce57bf5-e6f5-43b9-81e4-0dd93bdc0525")
-		(property "Reference" "J?"
+		(property "Reference" "J2"
 			(at 34.29 77.47 90)
 			(effects
 				(font
@@ -5195,7 +5195,7 @@
 		(instances
 			(project "SRAD FC Rev B"
 				(path "/1dd9e63a-24f2-43c6-ae21-66b89e6998f2/9d37d36a-f460-49db-aaa9-575118e1aeb1"
-					(reference "J?")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -5216,7 +5216,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a3c8dc62-7ca5-4409-bf7e-c4f2e527b64d")
-		(property "Reference" "F?"
+		(property "Reference" "F1"
 			(at 134.62 108.585 90)
 			(effects
 				(font
@@ -5277,7 +5277,7 @@
 		(instances
 			(project "SRAD FC Rev B"
 				(path "/1dd9e63a-24f2-43c6-ae21-66b89e6998f2/9d37d36a-f460-49db-aaa9-575118e1aeb1"
-					(reference "F?")
+					(reference "F1")
 					(unit 1)
 				)
 			)
@@ -5298,7 +5298,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b4bd39f1-33d8-4ab5-9c18-cb0c2df78fa8")
-		(property "Reference" "C?"
+		(property "Reference" "C3"
 			(at 94.615 112.395 0)
 			(effects
 				(font
@@ -5352,7 +5352,7 @@
 		(instances
 			(project "SRAD FC Rev B"
 				(path "/1dd9e63a-24f2-43c6-ae21-66b89e6998f2/9d37d36a-f460-49db-aaa9-575118e1aeb1"
-					(reference "C?")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -5379,7 +5379,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c6c21026-0b79-425e-8225-d9eeb489b7ad")
-		(property "Reference" "R?"
+		(property "Reference" "R3"
 			(at 79.375 83.82 90)
 			(effects
 				(font
@@ -5440,7 +5440,7 @@
 		(instances
 			(project "SRAD FC Rev B"
 				(path "/1dd9e63a-24f2-43c6-ae21-66b89e6998f2/9d37d36a-f460-49db-aaa9-575118e1aeb1"
-					(reference "R?")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -5467,7 +5467,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d3f3989c-2803-46a8-9188-de18b27e5f87")
-		(property "Reference" "F?"
+		(property "Reference" "F5"
 			(at 134.62 136.525 90)
 			(effects
 				(font
@@ -5528,7 +5528,7 @@
 		(instances
 			(project "SRAD FC Rev B"
 				(path "/1dd9e63a-24f2-43c6-ae21-66b89e6998f2/9d37d36a-f460-49db-aaa9-575118e1aeb1"
-					(reference "F?")
+					(reference "F5")
 					(unit 1)
 				)
 			)
@@ -5626,7 +5626,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e845bc73-7760-4e04-aa8d-42ec03ad35db")
-		(property "Reference" "R?"
+		(property "Reference" "R6"
 			(at 151.13 144.78 0)
 			(effects
 				(font
@@ -5680,7 +5680,7 @@
 		(instances
 			(project "SRAD FC Rev B"
 				(path "/1dd9e63a-24f2-43c6-ae21-66b89e6998f2/9d37d36a-f460-49db-aaa9-575118e1aeb1"
-					(reference "R?")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -5708,7 +5708,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ed63a8cc-e436-4a87-8ea9-b230b7283854")
-		(property "Reference" "U?"
+		(property "Reference" "U5"
 			(at 191.77 106.045 0)
 			(effects
 				(font
@@ -5787,7 +5787,7 @@
 		(instances
 			(project "SRAD FC Rev B"
 				(path "/1dd9e63a-24f2-43c6-ae21-66b89e6998f2/9d37d36a-f460-49db-aaa9-575118e1aeb1"
-					(reference "U?")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -5814,7 +5814,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "edd9167a-0d00-4def-9008-e099040a7d12")
-		(property "Reference" "R?"
+		(property "Reference" "R4"
 			(at 85.09 112.395 0)
 			(effects
 				(font
@@ -5875,7 +5875,7 @@
 		(instances
 			(project "SRAD FC Rev B"
 				(path "/1dd9e63a-24f2-43c6-ae21-66b89e6998f2/9d37d36a-f460-49db-aaa9-575118e1aeb1"
-					(reference "R?")
+					(reference "R4")
 					(unit 1)
 				)
 			)
