@@ -2861,6 +2861,17 @@
 		)
 		(uuid "1df2303a-3351-4c94-aa17-f3646d64dbc0")
 	)
+	(hierarchical_label "MCU_PYRO_CH1_DETECT"
+		(shape input)
+		(at 160.02 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2034d507-5d88-46e6-9f0d-b80d01ef92c2")
+	)
 	(hierarchical_label "MCU_IMU_INT1"
 		(shape input)
 		(at 160.02 106.68 0)
@@ -3037,6 +3048,17 @@
 		)
 		(uuid "a8162add-46c3-45a5-9a25-412333ba83e8")
 	)
+	(hierarchical_label "MCU_PYRO_CH2_FIRE"
+		(shape input)
+		(at 160.02 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bb7a07ba-3434-41bf-bdf5-2d87e00eef17")
+	)
 	(hierarchical_label "VSSA"
 		(shape input)
 		(at 123.19 147.32 270)
@@ -3070,6 +3092,17 @@
 		)
 		(uuid "d07bf4e4-a94d-4b41-ab01-826f7b8c9a2e")
 	)
+	(hierarchical_label "MCU_PYRO_ARM"
+		(shape input)
+		(at 160.02 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d674b0c1-99a7-49ec-9ef3-83518c1bbadc")
+	)
 	(hierarchical_label "BOOT0"
 		(shape input)
 		(at 92.71 58.42 180)
@@ -3080,6 +3113,28 @@
 			(justify right)
 		)
 		(uuid "d9e30a2d-9b56-48d8-935e-26a8e0715e38")
+	)
+	(hierarchical_label "MCU_PYRO_CH1_FIRE"
+		(shape input)
+		(at 160.02 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e40ad267-d472-4826-8cdc-b87920dadb77")
+	)
+	(hierarchical_label "MCU_PYRO_CH2_DETECT"
+		(shape input)
+		(at 160.02 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e7fd583e-e7ab-43fb-adf2-b97dc9bd9818")
 	)
 	(hierarchical_label "VDD"
 		(shape input)
