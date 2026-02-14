@@ -893,142 +893,6 @@
 		(uuid "fbf59851-6373-4a95-8dff-09c42cf97ebe")
 	)
 	(symbol
-		(lib_id "W25Q128JVSIQ:W25Q128JVSIQ")
-		(at 144.78 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "48e5d4c7-2b75-434c-8ba3-51c9d09eab00")
-		(property "Reference" "Storage"
-			(at 144.78 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "W25Q128JVSIQ"
-			(at 144.78 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "W25Q128JVSIQ:SOIC127P790X216-8N"
-			(at 144.78 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7161/256_W25Q128JV.pdf"
-			(at 144.78 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "3V 128M-BIT  SERIAL FLASH MEMORY WITH   DUAL/QUAD SPI"
-			(at 144.78 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.digikey.com/en/products/detail/winbond-electronics/W25Q128JVSIQ/5803943"
-			(at 144.78 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "I"
-			(at 144.78 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "IPC-7351B"
-			(at 144.78 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "2.16 mm"
-			(at 144.78 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Winbond Electronics"
-			(at 144.78 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1c756421-724f-48f8-9f92-82eadc9d82c4")
-		)
-		(pin "6"
-			(uuid "216330e5-f951-4a6b-b016-0b4ebe593dcb")
-		)
-		(pin "4"
-			(uuid "e7637ac4-5d4a-4f14-8e50-89f0230a1a5a")
-		)
-		(pin "7"
-			(uuid "b4b0db99-0311-4cc6-9a5a-469de1824b3e")
-		)
-		(pin "5"
-			(uuid "513d3913-5c81-49d7-bf26-e9f3942200cf")
-		)
-		(pin "2"
-			(uuid "fda33b22-699f-43e5-bacc-391af94014d9")
-		)
-		(pin "3"
-			(uuid "3b9c78c8-3ce3-4612-8940-e1c481744753")
-		)
-		(pin "8"
-			(uuid "d5b1f7d7-b5b3-4e2a-8eef-b24503263146")
-		)
-		(instances
-			(project ""
-				(path "/1dd9e63a-24f2-43c6-ae21-66b89e6998f2/7a96f78f-7769-410f-82f2-b37baf0f0866"
-					(reference "Storage")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 177.8 105.41 90)
 		(unit 1)
@@ -1090,6 +954,133 @@
 			(project ""
 				(path "/1dd9e63a-24f2-43c6-ae21-66b89e6998f2/7a96f78f-7769-410f-82f2-b37baf0f0866"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "W25Q128JVSIQ:W25Q128JVSIQ")
+		(at 144.78 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "65ec3640-f6d6-4881-b7bd-9c0f5920cb27")
+		(property "Reference" "U8"
+			(at 144.78 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "W25Q128JVSIQ"
+			(at 144.78 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "W25Q128JVSIQ:SOIC127P790X216-8N"
+			(at 144.78 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "I"
+			(at 144.78 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 144.78 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "2.16 mm"
+			(at 144.78 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Winbond Electronics"
+			(at 144.78 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9c4ac625-0fe4-488a-aa1a-17593a96091b")
+		)
+		(pin "8"
+			(uuid "a04a9e30-da9e-4c0c-aeca-f8252fda5a4b")
+		)
+		(pin "1"
+			(uuid "13b7336d-44cf-406e-8028-ebfbaeb62858")
+		)
+		(pin "6"
+			(uuid "f2b4fab5-6dd3-4613-a0dd-060e208fd6f8")
+		)
+		(pin "7"
+			(uuid "37170feb-80ed-4445-a98a-3aa479940f53")
+		)
+		(pin "5"
+			(uuid "cabd6cf9-5c2e-4863-8f2b-e8647a305f54")
+		)
+		(pin "3"
+			(uuid "92a84490-36f1-457b-af8e-c528f20a98a7")
+		)
+		(pin "4"
+			(uuid "d3744fa6-146e-4f86-8828-9842b726fd44")
+		)
+		(instances
+			(project ""
+				(path "/1dd9e63a-24f2-43c6-ae21-66b89e6998f2/7a96f78f-7769-410f-82f2-b37baf0f0866"
+					(reference "U8")
 					(unit 1)
 				)
 			)
