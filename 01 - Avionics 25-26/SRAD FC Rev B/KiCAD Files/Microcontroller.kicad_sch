@@ -2839,6 +2839,17 @@
 		)
 		(uuid "ffbacf27-046b-4302-b2ee-4344f355fbc4")
 	)
+	(hierarchical_label "MCU_PYRO_CURRENT_SENSE"
+		(shape input)
+		(at 160.02 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "074761f8-5654-452f-8c7b-41fc556e0e4c")
+	)
 	(hierarchical_label "MCU_FLASH_SPI_CS"
 		(shape input)
 		(at 160.02 87.63 0)
