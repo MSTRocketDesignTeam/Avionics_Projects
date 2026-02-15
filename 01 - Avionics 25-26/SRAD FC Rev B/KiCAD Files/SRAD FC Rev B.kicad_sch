@@ -1541,16 +1541,6 @@
 				(justify right)
 			)
 		)
-		(pin "MCU_ACCEL_SPI_CS" input
-			(at 71.12 77.47 0)
-			(uuid "1dadd855-e5ac-4e49-b103-4d1c8464fd3b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "MCU_SPI_MISO" input
 			(at 71.12 62.23 0)
 			(uuid "590462a0-52fe-4192-bce3-e3e8477db3ae")
@@ -1561,79 +1551,9 @@
 				(justify right)
 			)
 		)
-		(pin "MCU_FLASH_SPI_CS" input
-			(at 71.12 80.01 0)
-			(uuid "1e1e9867-3326-4944-8c50-3dd87354bfcc")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "MCU_RF_SPI_CS" input
-			(at 71.12 74.93 0)
-			(uuid "86bea333-bb87-439f-98db-8d417722d2c7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "MCU_SPI_MOSI" input
-			(at 71.12 64.77 0)
-			(uuid "88cecfc1-9ecc-431e-acf5-6f02629f6d01")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "MCU_SPI_SCLK" input
-			(at 71.12 67.31 0)
-			(uuid "2e4bc426-130c-4081-b4d0-e7047385285b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "MCU_BARO_SPI_CS" input
-			(at 71.12 72.39 0)
-			(uuid "166862f5-becf-414b-9da3-0781b2d37f9f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "MCU_IMU_SPI_CS" input
-			(at 71.12 82.55 0)
-			(uuid "dfc9e357-a342-4e60-b5ea-7b91dc6296f1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "MCU_GPS_UART_RX" input
 			(at 71.12 135.89 0)
 			(uuid "4551b87c-fed2-40fe-9263-79608b745048")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "MCU_GPS_UART_TX" input
-			(at 71.12 140.97 0)
-			(uuid "2a9c7e3f-4917-4a7b-be56-f78b46f58de7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1671,39 +1591,9 @@
 				(justify right)
 			)
 		)
-		(pin "MCU_PYRO_CH2_FIRE" input
-			(at 19.05 147.32 270)
-			(uuid "213f83e8-f2ea-4a48-a5c8-c874a496c94a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "MCU_PYRO_CH2_DETECT" input
 			(at 24.13 147.32 270)
 			(uuid "952cc6a0-fd89-41ca-afdb-b62ea8a8f64e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "MCU_PYRO_ARM" input
-			(at 29.21 147.32 270)
-			(uuid "566810e2-d062-4060-ab70-128fd3f3c8fa")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "MCU_PYRO_CH1_FIRE" input
-			(at 21.59 147.32 270)
-			(uuid "d13f121b-7460-4e9e-9dee-e6163998bea9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1771,16 +1661,6 @@
 				(justify right)
 			)
 		)
-		(pin "MCU_GPS_EXTINT" input
-			(at 71.12 143.51 0)
-			(uuid "15e2e850-1f9c-40bb-82e2-64fbfe2e4811")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "MCU_GPS_TIMEPULSE" input
 			(at 71.12 138.43 0)
 			(uuid "cd8bbcae-0872-4209-873b-3997b6ef0430")
@@ -1794,6 +1674,126 @@
 		(pin "BOOT0" input
 			(at 71.12 107.95 0)
 			(uuid "69b8c6f6-c8ed-464f-882f-c7d7e41f63d4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MCU_GPS_EXTINT" output
+			(at 71.12 143.51 0)
+			(uuid "e9cc7623-1c51-443e-8fca-0b8e913ad6a2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MCU_GPS_UART_TX" output
+			(at 71.12 140.97 0)
+			(uuid "daf035bc-f8d9-4102-8c69-5eba3222da4e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MCU_BARO_SPI_CS" output
+			(at 71.12 72.39 0)
+			(uuid "851f8207-8729-45cf-a061-6dde0ca0ffb8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MCU_RF_SPI_CS" output
+			(at 71.12 74.93 0)
+			(uuid "b4b5a228-364a-4ab9-9438-2de83a338e08")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MCU_ACCEL_SPI_CS" output
+			(at 71.12 77.47 0)
+			(uuid "15bf2050-47a8-4ca9-98c1-1f9a42d1b5e2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MCU_FLASH_SPI_CS" output
+			(at 71.12 80.01 0)
+			(uuid "5031d0df-eccc-4a4d-9bbe-5eb8b4efe15c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MCU_IMU_SPI_CS" output
+			(at 71.12 82.55 0)
+			(uuid "6867d528-18ef-4646-9cf6-d6df828f52ad")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MCU_PYRO_ARM" output
+			(at 29.21 147.32 270)
+			(uuid "0c94fd52-9071-42d5-96af-92c8f27d7c1e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MCU_PYRO_CH1_FIRE" output
+			(at 21.59 147.32 270)
+			(uuid "16e9c20f-7d94-4888-a45f-bcf8c340d96b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MCU_PYRO_CH2_FIRE" output
+			(at 19.05 147.32 270)
+			(uuid "5448ad4d-c515-4269-b072-e443fd99d7ff")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MCU_SPI_SCLK" output
+			(at 71.12 67.31 0)
+			(uuid "a64e0163-1e3d-4fb9-be67-ece32fb11388")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MCU_SPI_MOSI" output
+			(at 71.12 64.77 0)
+			(uuid "94986cdd-3134-475d-bd7a-a7fd50587fa3")
 			(effects
 				(font
 					(size 1.27 1.27)

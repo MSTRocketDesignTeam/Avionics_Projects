@@ -2291,7 +2291,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 111.76) (xy 160.02 111.76)
+			(xy 147.32 106.68) (xy 160.02 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2341,7 +2341,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 114.3) (xy 144.78 104.14)
+			(xy 144.78 109.22) (xy 144.78 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2511,7 +2511,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 114.3) (xy 144.78 114.3)
+			(xy 160.02 109.22) (xy 144.78 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2541,7 +2541,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 99.06) (xy 149.86 109.22)
+			(xy 149.86 99.06) (xy 149.86 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2691,7 +2691,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 106.68) (xy 160.02 106.68)
+			(xy 152.4 101.6) (xy 160.02 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2711,7 +2711,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 109.22) (xy 160.02 109.22)
+			(xy 149.86 104.14) (xy 160.02 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2771,7 +2771,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 101.6) (xy 147.32 111.76)
+			(xy 147.32 101.6) (xy 147.32 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2821,7 +2821,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 96.52) (xy 152.4 106.68)
+			(xy 152.4 96.52) (xy 152.4 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2871,7 +2871,7 @@
 	)
 	(hierarchical_label "MCU_PYRO_CURRENT_SENSE"
 		(shape input)
-		(at 160.02 134.62 0)
+		(at 160.02 130.81 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2881,7 +2881,7 @@
 		(uuid "074761f8-5654-452f-8c7b-41fc556e0e4c")
 	)
 	(hierarchical_label "MCU_GPS_EXTINT"
-		(shape input)
+		(shape output)
 		(at 161.29 55.88 0)
 		(effects
 			(font
@@ -2892,7 +2892,7 @@
 		(uuid "0957a328-bd33-4b78-a1f6-f8383d3a4b22")
 	)
 	(hierarchical_label "MCU_FLASH_SPI_CS"
-		(shape input)
+		(shape output)
 		(at 160.02 87.63 0)
 		(effects
 			(font
@@ -2915,7 +2915,7 @@
 	)
 	(hierarchical_label "MCU_PYRO_CH1_DETECT"
 		(shape input)
-		(at 160.02 129.54 0)
+		(at 160.02 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2926,7 +2926,7 @@
 	)
 	(hierarchical_label "MCU_IMU_INT1"
 		(shape input)
-		(at 160.02 106.68 0)
+		(at 160.02 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2959,7 +2959,7 @@
 	)
 	(hierarchical_label "MCU_ACCEL_INT2"
 		(shape input)
-		(at 160.02 111.76 0)
+		(at 160.02 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2969,7 +2969,7 @@
 		(uuid "352c3da3-2bf7-43f1-99a9-a7de0d6db685")
 	)
 	(hierarchical_label "MCU_RF_SPI_CS"
-		(shape input)
+		(shape output)
 		(at 160.02 90.17 0)
 		(effects
 			(font
@@ -2991,7 +2991,7 @@
 		(uuid "44cedd18-3737-4028-ab38-4749a751f431")
 	)
 	(hierarchical_label "MCU_SPI_SCLK"
-		(shape input)
+		(shape output)
 		(at 160.02 66.04 0)
 		(effects
 			(font
@@ -3002,7 +3002,7 @@
 		(uuid "4fe93d5e-7fff-4000-8d10-7e71ca5b5060")
 	)
 	(hierarchical_label "MCU_GPS_UART_TX"
-		(shape input)
+		(shape output)
 		(at 160.02 76.2 0)
 		(effects
 			(font
@@ -3035,7 +3035,7 @@
 		(uuid "66d320c8-1dd8-4754-a76d-e781aa341dc5")
 	)
 	(hierarchical_label "MCU_BARO_SPI_CS"
-		(shape input)
+		(shape output)
 		(at 160.02 92.71 0)
 		(effects
 			(font
@@ -3047,7 +3047,7 @@
 	)
 	(hierarchical_label "MCU_GPS_TIMEPULSE"
 		(shape input)
-		(at 160.02 114.3 0)
+		(at 160.02 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3068,7 +3068,7 @@
 		(uuid "8071606e-3228-4c5a-af63-6befe4874452")
 	)
 	(hierarchical_label "MCU_ACCEL_SPI_CS"
-		(shape input)
+		(shape output)
 		(at 160.02 85.09 0)
 		(effects
 			(font
@@ -3079,7 +3079,7 @@
 		(uuid "83804cd4-d664-46ef-a779-282493f14965")
 	)
 	(hierarchical_label "MCU_IMU_SPI_CS"
-		(shape input)
+		(shape output)
 		(at 160.02 95.25 0)
 		(effects
 			(font
@@ -3090,7 +3090,7 @@
 		(uuid "8c1afd53-8e60-4ee7-baf8-2d8ebcf0fc4a")
 	)
 	(hierarchical_label "MCU_SPI_MOSI"
-		(shape input)
+		(shape output)
 		(at 160.02 71.12 0)
 		(effects
 			(font
@@ -3112,8 +3112,8 @@
 		(uuid "a8162add-46c3-45a5-9a25-412333ba83e8")
 	)
 	(hierarchical_label "MCU_PYRO_CH2_FIRE"
-		(shape input)
-		(at 160.02 127 0)
+		(shape output)
+		(at 160.02 123.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3146,7 +3146,7 @@
 	)
 	(hierarchical_label "MCU_ACCEL_INT1"
 		(shape input)
-		(at 160.02 109.22 0)
+		(at 160.02 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3156,8 +3156,8 @@
 		(uuid "d07bf4e4-a94d-4b41-ab01-826f7b8c9a2e")
 	)
 	(hierarchical_label "MCU_PYRO_ARM"
-		(shape input)
-		(at 160.02 121.92 0)
+		(shape output)
+		(at 160.02 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3178,8 +3178,8 @@
 		(uuid "d9e30a2d-9b56-48d8-935e-26a8e0715e38")
 	)
 	(hierarchical_label "MCU_PYRO_CH1_FIRE"
-		(shape input)
-		(at 160.02 124.46 0)
+		(shape output)
+		(at 160.02 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3190,7 +3190,7 @@
 	)
 	(hierarchical_label "MCU_PYRO_CH2_DETECT"
 		(shape input)
-		(at 160.02 132.08 0)
+		(at 160.02 128.27 0)
 		(effects
 			(font
 				(size 1.27 1.27)

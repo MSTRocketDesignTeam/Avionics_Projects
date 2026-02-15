@@ -1,6 +1,6 @@
 (sym_lib_table
   (version 7)
-  (lib (name "STM32F722RCT6")(type "KiCad")(uri "/Users/ikeel/Documents/KiCad/Avionics_Projects-main/01 - Avionics 25-26/SRAD FC Rev B/KiCAD Libraries/2025-11-01_17-11-34.kicad_sym")(options "")(descr ""))
+  (lib (name "STM32F722RCT6")(type "KiCad")(uri "${KIPRJMOD}/STM32F722RCT6/STM32F722RCT6.kicad_sym")(options "")(descr ""))
   (lib (name "SX1276IMLTRT")(type "KiCad")(uri "${KIPRJMOD}/SX1276IMLTRT/SX1276IMLTRT.kicad_sym")(options "")(descr ""))
   (lib (name "W25Q128JVSIQ")(type "KiCad")(uri "${KIPRJMOD}/W25Q128JVSIQ/W25Q128JVSIQ.kicad_sym")(options "")(descr ""))
   (lib (name "SAM-M10Q-00B")(type "KiCad")(uri "${KIPRJMOD}/SAM_M10Q_00B/SAM-M10Q-00B.kicad_sym")(options "")(descr ""))
