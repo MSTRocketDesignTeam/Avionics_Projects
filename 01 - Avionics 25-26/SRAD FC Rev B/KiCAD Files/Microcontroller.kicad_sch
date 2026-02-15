@@ -2341,6 +2341,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 114.3) (xy 144.78 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ee8a4be-65a7-48cc-bf37-83eb5d9e0a54")
+	)
+	(wire
+		(pts
 			(xy 67.31 88.9) (xy 72.39 88.9)
 		)
 		(stroke
@@ -2501,6 +2511,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 114.3) (xy 144.78 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6426acfe-8dc7-4754-8726-e7b38e3faa32")
+	)
+	(wire
+		(pts
 			(xy 92.71 58.42) (xy 100.33 58.42)
 		)
 		(stroke
@@ -2638,6 +2658,16 @@
 			(type default)
 		)
 		(uuid "98dc9a20-ed52-4fe8-81f7-029633edcea6")
+	)
+	(wire
+		(pts
+			(xy 144.78 104.14) (xy 140.97 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac76ac6b-76d0-4bce-8c98-27cb6f0248e0")
 	)
 	(wire
 		(pts
@@ -2850,6 +2880,17 @@
 		)
 		(uuid "074761f8-5654-452f-8c7b-41fc556e0e4c")
 	)
+	(hierarchical_label "MCU_GPS_EXTINT"
+		(shape input)
+		(at 161.29 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0957a328-bd33-4b78-a1f6-f8383d3a4b22")
+	)
 	(hierarchical_label "MCU_FLASH_SPI_CS"
 		(shape input)
 		(at 160.02 87.63 0)
@@ -3003,6 +3044,17 @@
 			(justify left)
 		)
 		(uuid "6a2456ab-dbc0-4872-ad59-3d83315c1699")
+	)
+	(hierarchical_label "MCU_GPS_TIMEPULSE"
+		(shape input)
+		(at 160.02 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "746051d4-bcad-4791-bf66-ac46222fadd4")
 	)
 	(hierarchical_label "MCU_SPI_MISO"
 		(shape input)
