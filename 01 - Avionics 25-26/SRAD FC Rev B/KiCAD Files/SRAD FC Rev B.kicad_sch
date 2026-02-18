@@ -31,12 +31,6 @@
 		(uuid "12cd4851-0dfb-4a5e-92f0-e237bb77fc27")
 	)
 	(junction
-		(at 78.74 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "14079746-76f8-4682-9091-0d86370b5ca0")
-	)
-	(junction
 		(at 104.14 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -127,12 +121,6 @@
 		(uuid "aa0137d7-ea49-4c10-82b0-644e966f041a")
 	)
 	(junction
-		(at 78.74 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bdfc688a-b12b-49ea-8a7a-5f80a607930a")
-	)
-	(junction
 		(at 99.06 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -179,16 +167,6 @@
 			(type default)
 		)
 		(uuid "04b0c857-c603-4d86-b4e9-dd94f80e80d5")
-	)
-	(wire
-		(pts
-			(xy 78.74 88.9) (xy 78.74 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "059db743-b02d-4d19-ab39-c2af35508a43")
 	)
 	(wire
 		(pts
@@ -632,16 +610,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 88.9) (xy 78.74 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62baccfa-89a1-4179-8c86-0f4859cd0d7e")
-	)
-	(wire
-		(pts
 			(xy 224.79 140.97) (xy 224.79 143.51)
 		)
 		(stroke
@@ -689,16 +657,6 @@
 			(type default)
 		)
 		(uuid "6b780619-17ef-4b98-bf50-cd612739bd67")
-	)
-	(wire
-		(pts
-			(xy 78.74 91.44) (xy 78.74 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70a99136-2997-443b-a2f3-6c7a846bec67")
 	)
 	(wire
 		(pts
@@ -1009,16 +967,6 @@
 			(type default)
 		)
 		(uuid "b6c9451e-cb90-489f-abd4-399a1f77cda3")
-	)
-	(wire
-		(pts
-			(xy 71.12 91.44) (xy 78.74 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7030428-8fc4-4603-98fd-9d3c64c964c7")
 	)
 	(wire
 		(pts
@@ -1797,29 +1745,9 @@
 				(justify left)
 			)
 		)
-		(pin "VSS" input
-			(at 71.12 91.44 0)
-			(uuid "ba1a20e6-5a57-4e4e-8f08-aefbb13dd5ff")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "VDDA" input
 			(at 71.12 96.52 0)
 			(uuid "fba363db-ce35-4f25-9125-297125ac620d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "VSSA" input
-			(at 71.12 88.9 0)
-			(uuid "47c702bb-25fa-4276-ac27-2d778afdc31e")
 			(effects
 				(font
 					(size 1.27 1.27)
