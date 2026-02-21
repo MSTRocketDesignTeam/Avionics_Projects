@@ -335,146 +335,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Converter_DCDC:TSR_1-2425"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -7.62 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "TSR_1-2425"
-				(at -1.27 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Converter_DCDC:Converter_DCDC_TRACO_TSR-1_THT"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.tracopower.com/products/tsr1.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "1A step-down regulator module, fixed 2.5V output voltage, 6-36V input voltage, -40°C to +85°C temperature range, TO-220 compatible LM78xx replacement"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "dc-dc traco buck"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Converter*DCDC*TRACO*TSR?1*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TSR_1-2425_0_1"
-				(rectangle
-					(start -7.62 5.08)
-					(end 7.62 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "TSR_1-2425_1_1"
-				(pin power_in line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "Vin"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "Vout"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Converter_DCDC:TSR_1-2433"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -758,10 +618,10 @@
 		(uuid "f7469b0c-6a38-4b92-9873-c79b4937a927")
 	)
 	(junction
-		(at 144.78 113.03)
+		(at 154.94 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3d665512-6fac-4380-a83d-6a2f6e2d066b")
+		(uuid "19fce352-378e-4c72-86a8-1c1a98b48eab")
 	)
 	(junction
 		(at 144.78 102.87)
@@ -771,37 +631,17 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 90.17) (xy 121.92 90.17)
+			(xy 154.94 102.87) (xy 154.94 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "082793fb-ca04-4b0f-8458-1e3f1c3fb496")
+		(uuid "1bad3966-9edf-4277-a562-221431ca77b1")
 	)
 	(wire
 		(pts
-			(xy 121.92 113.03) (xy 124.46 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0cce6436-8cf8-473a-988a-fae1fdba7065")
-	)
-	(wire
-		(pts
-			(xy 95.25 90.17) (xy 95.25 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0fb3216e-8498-4d8c-91f0-c2525a168d09")
-	)
-	(wire
-		(pts
-			(xy 124.46 137.16) (xy 119.38 137.16)
+			(xy 124.46 118.11) (xy 119.38 118.11)
 		)
 		(stroke
 			(width 0)
@@ -831,16 +671,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 113.03) (xy 144.78 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "723b5994-5b10-499a-8371-0e78604cf7f8")
-	)
-	(wire
-		(pts
 			(xy 124.46 87.63) (xy 92.71 87.63)
 		)
 		(stroke
@@ -851,23 +681,13 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 102.87) (xy 166.37 102.87)
+			(xy 144.78 102.87) (xy 154.94 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a37f5ff4-4a35-4e59-9f2a-fd13ef4a3fda")
-	)
-	(wire
-		(pts
-			(xy 121.92 90.17) (xy 121.92 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aac0a28b-c0a0-43e9-908b-e721461baf7e")
 	)
 	(wire
 		(pts
@@ -881,6 +701,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 102.87) (xy 166.37 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc329a02-e5ed-4de6-9d5a-0b206f3743e8")
+	)
+	(wire
+		(pts
 			(xy 92.71 87.63) (xy 92.71 111.76)
 		)
 		(stroke
@@ -891,7 +721,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 102.87) (xy 144.78 113.03)
+			(xy 144.78 102.87) (xy 144.78 118.11)
 		)
 		(stroke
 			(width 0)
@@ -901,7 +731,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 137.16) (xy 119.38 92.71)
+			(xy 119.38 118.11) (xy 119.38 92.71)
 		)
 		(stroke
 			(width 0)
@@ -931,16 +761,16 @@
 		)
 		(uuid "941615ed-be22-4501-8bf0-dbb556611bd6")
 	)
-	(hierarchical_label "+2.5V"
+	(hierarchical_label "BAT_RAW"
 		(shape output)
-		(at 95.25 111.76 270)
+		(at 154.94 109.22 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "c25f951f-d7ca-460a-bd65-c3548f5039f7")
+		(uuid "9757cce7-c7f0-4875-b4b3-9811bee2a15c")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -1075,74 +905,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 134.62 105.41 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5ae729c3-7ac9-4a0d-8787-2432c46c724b")
-		(property "Reference" "#PWR05"
-			(at 134.62 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 134.62 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 134.62 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 134.62 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6aaae833-9452-4a74-a9ed-a6877db6d854")
-		)
-		(instances
-			(project "SRAD FC Rev B"
-				(path "/1dd9e63a-24f2-43c6-ae21-66b89e6998f2/6e4b3e58-ab8d-4ff5-b512-9b036522c993"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Converter_DCDC:TSR_1-2418")
-		(at 134.62 134.62 180)
+		(at 134.62 115.57 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1151,7 +915,7 @@
 		(fields_autoplaced yes)
 		(uuid "635830d6-ca5f-49e5-91bb-d3e1ebeb8b43")
 		(property "Reference" "U11"
-			(at 134.62 142.24 0)
+			(at 134.62 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1159,7 +923,7 @@
 			)
 		)
 		(property "Value" "TSR_1-2418"
-			(at 134.62 144.78 0)
+			(at 134.62 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1167,7 +931,7 @@
 			)
 		)
 		(property "Footprint" "Converter_DCDC:Converter_DCDC_TRACO_TSR-1_THT"
-			(at 134.62 130.81 0)
+			(at 134.62 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1178,7 +942,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.tracopower.com/products/tsr1.pdf"
-			(at 134.62 134.62 0)
+			(at 134.62 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1187,7 +951,7 @@
 			)
 		)
 		(property "Description" "1A step-down regulator module, fixed 1.8V output voltage, 6-36V input voltage, -40°C to +85°C temperature range, TO-220 compatible LM78xx replacement"
-			(at 134.62 134.62 0)
+			(at 134.62 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1288,7 +1052,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 134.62 129.54 180)
+		(at 134.62 110.49 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1297,7 +1061,7 @@
 		(fields_autoplaced yes)
 		(uuid "d018d34b-721a-424f-af49-39cac60ac247")
 		(property "Reference" "#PWR011"
-			(at 134.62 123.19 0)
+			(at 134.62 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1306,7 +1070,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 134.62 124.46 0)
+			(at 134.62 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1314,7 +1078,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 129.54 0)
+			(at 134.62 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1323,7 +1087,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 129.54 0)
+			(at 134.62 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1332,7 +1096,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 134.62 129.54 0)
+			(at 134.62 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1347,79 +1111,6 @@
 			(project "SRAD FC Rev B"
 				(path "/1dd9e63a-24f2-43c6-ae21-66b89e6998f2/6e4b3e58-ab8d-4ff5-b512-9b036522c993"
 					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Converter_DCDC:TSR_1-2425")
-		(at 134.62 110.49 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e43fbf24-d0b1-4541-b026-142169018324")
-		(property "Reference" "U10"
-			(at 134.62 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TSR_1-2425"
-			(at 134.62 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Converter_DCDC:Converter_DCDC_TRACO_TSR-1_THT"
-			(at 134.62 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.tracopower.com/products/tsr1.pdf"
-			(at 134.62 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1A step-down regulator module, fixed 2.5V output voltage, 6-36V input voltage, -40°C to +85°C temperature range, TO-220 compatible LM78xx replacement"
-			(at 134.62 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "4c5ad5c9-53cf-4c92-a646-85a75d1b26f2")
-		)
-		(pin "2"
-			(uuid "f1088687-81be-42be-998a-b7b6d23ce4ea")
-		)
-		(pin "1"
-			(uuid "9a17556a-663c-47fc-a2e9-19c0f539150d")
-		)
-		(instances
-			(project ""
-				(path "/1dd9e63a-24f2-43c6-ae21-66b89e6998f2/6e4b3e58-ab8d-4ff5-b512-9b036522c993"
-					(reference "U10")
 					(unit 1)
 				)
 			)

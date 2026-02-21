@@ -2761,16 +2761,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 129.54) (xy 160.02 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "181ca006-74eb-4d13-a61a-f83b0f1bdaac")
-	)
-	(wire
-		(pts
 			(xy 66.04 41.91) (xy 66.04 53.34)
 		)
 		(stroke
@@ -3759,17 +3749,6 @@
 		)
 		(uuid "ffbacf27-046b-4302-b2ee-4344f355fbc4")
 	)
-	(hierarchical_label "MCU_PYRO_CURRENT_SENSE"
-		(shape input)
-		(at 160.02 129.54 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "074761f8-5654-452f-8c7b-41fc556e0e4c")
-	)
 	(hierarchical_label "MCU_GPS_EXTINT"
 		(shape output)
 		(at 160.02 74.93 0)
@@ -3980,7 +3959,7 @@
 		(uuid "d07bf4e4-a94d-4b41-ab01-826f7b8c9a2e")
 	)
 	(hierarchical_label "MCU_PYRO_ARM"
-		(shape output)
+		(shape input)
 		(at 160.02 116.84 0)
 		(effects
 			(font
