@@ -138,10 +138,6 @@
 		(color 0 0 0 0)
 		(uuid "ffcdb562-7ba4-41d0-84f0-9dba06ad8cb4")
 	)
-	(no_connect
-		(at 99.06 83.82)
-		(uuid "56f023a0-be5b-42a4-a205-5ec1e6092f31")
-	)
 	(wire
 		(pts
 			(xy 143.51 44.45) (xy 138.43 44.45)
